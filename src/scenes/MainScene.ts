@@ -1,30 +1,38 @@
-import { TextUtil } from '../utils/TextUtil';
+import { Text } from 'pixi.js';
 import { Scene } from '../core/Scene';
 import { EventManager } from '../utils/EventManager';
+import { TextUtil } from '../utils/TextUtil';
+import { log } from 'node:console';
+import { Globals } from '@/Global';
 
 export class MainScene extends Scene {
   private eventManager: EventManager;
-    text: any;
+  private text!: Text;
 
   constructor() {
     super('MainScene');
     this.eventManager = EventManager.getInstance();
+    this.setup();
+    console.log(Globals.soundResources,Globals.resources);
+    
+  }
+
+  private setup(): void {
+    this.text = TextUtil.createText('Main Scene', window.innerWidth / 2, window.innerHeight / 2, 32, 0xffffff, 0.5);
+    this.addChild(this.text);
+
   }
 
   public init(): void {
-    this.text = TextUtil.createText('Hello World', window.innerWidth / 2,  window.innerHeight / 2, 30, 0xffffff,0.5);
-    this.addChild(this.text);
-    // Scene initialization
+    // Initialize main scene
   }
 
   protected onUpdate(delta: number): void {
-    // Scene update logic
+    // Update main scene logic
   }
 
-  protected onResize(): void {
-    this.text.position.x = window.innerWidth / 2;
-    this.text.position.y = window.innerHeight / 2;
-    // Handle resize if needed
+  public onResize(): void {
+    this.text.position.set(window.innerWidth / 2, window.innerHeight / 2);
   }
 
   public destroy(): void {

@@ -1,12 +1,11 @@
-import { Application } from 'pixi.js';
+import { Application, Texture } from 'pixi.js';
 import { Howl } from 'howler';
 import * as Matter from 'matter-js';
 import { SceneManager } from './core/SceneManager';
 
-export const global = {
+export const Globals = {
   app: null as Application | null,
   sceneManager: null as SceneManager | null,
-  sound: {} as { [key: string]: Howl },
   physics: Matter,
   isMobile: false,
   screenWidth: 0,
@@ -14,10 +13,13 @@ export const global = {
   gameWidth: 0,
   gameHeight: 0,
   scale: 0,
+  // Separate resources for different asset types
+  resources: {} as { [key: string]: Texture | any },
+  soundResources: {} as { [key: string]: Howl },
 
   init(app: Application): void {
     this.app = app;
-    this.sceneManager = SceneManager.getInstance(); // false for no physics by default
+    this.sceneManager = SceneManager.getInstance();
     this.physics = Matter;
     this.isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
       navigator.userAgent
@@ -30,6 +32,9 @@ export const global = {
       this.sceneManager.destroy();
       this.sceneManager = null;
     }
+    // Clear all resources when destroying
+    this.resources = {};
+    this.soundResources = {};
     this.app = null;
   },
 

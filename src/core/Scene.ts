@@ -1,4 +1,4 @@
-import { Container, Text } from 'pixi.js';
+import { Container, Text, DisplayObject } from 'pixi.js';
 import { EventEmitter } from 'events';
 import { appConfig } from '../utils/AppConfig';
 
@@ -87,7 +87,7 @@ export abstract class Scene extends Container {
     this.onResize();
   }
 
-  protected abstract onResize(): void;
+  public abstract onResize(): void;
 
   public show(): void {
     this.visible = true;
@@ -101,13 +101,21 @@ export abstract class Scene extends Container {
     this.isActive = false;
   }
 
-  public destroy(): void {
+  public destroy(options?: { children?: boolean; texture?: boolean; baseTexture?: boolean }): void {
     if (this.resizeHandler) {
       window.removeEventListener('resize', this.resizeHandler);
       this.resizeHandler = null;
     }
     this.isActive = false;
     this.events.removeAllListeners();
-    super.destroy({ children: true });
+    super.destroy(options);
+  }
+
+  public addChild<T extends DisplayObject>(...children: T[]): T {
+    return super.addChild(...children);
+  }
+
+  public removeChild<T extends DisplayObject>(...children: T[]): T {
+    return super.removeChild(...children);
   }
 }

@@ -1,128 +1,80 @@
 import { Assets } from 'pixi.js';
 import { Howl } from 'howler';
-import { global } from '../Global';
+import { Globals } from '../Global';
+import { initAssets, loadBundle, unloadBundle, backgroundLoadBundle } from './LoaderConfig';
 
-interface AssetManifest {
-  [key: string]: {
-    name: string;
-    url: string;
-    type: string;
-  }[];
-}
+type ProgressCallback = (progress: number) => void;
 
 export class Loader {
-  private static instance: Loader;
-  private manifest: AssetManifest;
-  private totalAssets: number = 0;
-  private loadedAssets: number = 0;
+    private static instance: Loader;
 
-  private constructor() {
-    this.manifest = {
-      images: [],
-      sounds: [],
-      spritesheets: [],
-      fonts: [],
-    };
-  }
+    private constructor() {}
 
-  public static getInstance(): Loader {
-    if (!Loader.instance) {
-      Loader.instance = new Loader();
-    }
-    return Loader.instance;
-  }
-
-  public async load(manifest: AssetManifest): Promise<void> {
-    if (!global.app) {
-      throw new Error('Application not initialized');
+    public static getInstance(): Loader {
+        if (!Loader.instance) {
+            Loader.instance = new Loader();
+        }
+        return Loader.instance;
     }
 
-    this.manifest = manifest;
-    this.totalAssets = this.calculateTotalAssets();
-    this.loadedAssets = 0;
+    public async init(): Promise<void> {
+        if (!Globals.app) {
+            throw new Error('Application not initialized');
+        }
 
-    try {
-      await this.loadImages();
-      await this.loadSpritesheets();
-      await this.loadSounds();
-      await this.loadFonts();
-    } catch (error) {
-      console.error('Error loading assets:', error);
-      throw error;
-    }
-  }
-
-  private calculateTotalAssets(): number {
-    return Object.values(this.manifest).reduce((total, assets) => total + assets.length, 0);
-  }
-
-  private async loadImages(): Promise<void> {
-    const imageAssets = this.manifest.images.map(asset => ({
-      alias: asset.name,
-      src: asset.url,
-    }));
-
-    if (imageAssets.length > 0) {
-      await Assets.load(imageAssets, this.onProgress.bind(this));
-    }
-  }
-
-  private async loadSpritesheets(): Promise<void> {
-    const spritesheetAssets = this.manifest.spritesheets.map(asset => ({
-      alias: asset.name,
-      src: asset.url,
-    }));
-
-    if (spritesheetAssets.length > 0) {
-      await Assets.load(spritesheetAssets, this.onProgress.bind(this));
-    }
-  }
-
-  private async loadSounds(): Promise<void> {
-    const soundPromises = this.manifest.sounds.map(asset => {
-      return new Promise<void>((resolve, reject) => {
-        const sound = new Howl({
-          src: [asset.url],
-          onload: () => {
-            global.sound[asset.name] = sound;
-            this.loadedAssets++;
-            this.onProgress();
-            resolve();
-          },
-          onloaderror: (id, error) => {
-            reject(error);
-          },
-        });
-      });
-    });
-
-    await Promise.all(soundPromises);
-  }
-
-  private async loadFonts(): Promise<void> {
-    // Implement font loading logic here if needed
-    // This is a placeholder for future font loading implementation
-    this.loadedAssets += this.manifest.fonts.length;
-    this.onProgress();
-  }
-
-  private onProgress(): void {
-    if (!global.app) {
-      console.error('Application not initialized during asset loading');
-      return;
+        try {
+            await initAssets();
+        } catch (error) {
+            console.error('Error initializing assets:', error);
+            throw error;
+        }
     }
 
-    const progress = this.loadedAssets / this.totalAssets;
-    global.app.stage.emit('loadingProgress', progress);
+    public async load(bundleName: string, onProgress?: ProgressCallback): Promise<any> {
+        if (!Globals.app) {
+            throw new Error('Application not initialized');
+        }
 
-    if (progress === 1) {
-      global.app.stage.emit('loadingComplete');
+        try {
+            const assets = await loadBundle(bundleName, (progress: number) => {
+                if (onProgress) {
+                    onProgress(progress);
+                }
+                Globals.app?.stage.emit('loadingProgress', progress);
+
+                if (progress === 1) {
+                    Globals.app?.stage.emit('loadingComplete');
+                }
+            });
+
+            return assets;
+        } catch (error) {
+            console.error(`Error loading bundle ${bundleName}:`, error);
+            throw error;
+        }
     }
-  }
 
-  public getProgress(): number {
-    return this.loadedAssets / this.totalAssets;
-  }
+    public async unload(bundleName: string): Promise<void> {
+        try {
+            await unloadBundle(bundleName);
+        } catch (error) {
+            console.error(`Error unloading bundle ${bundleName}:`, error);
+            throw error;
+        }
+    }
+
+    public async backgroundLoad(bundleName: string): Promise<void> {
+        try {
+            await backgroundLoadBundle(bundleName);
+        } catch (error) {
+            console.error(`Error background loading bundle ${bundleName}:`, error);
+            throw error;
+        }
+    }
+
+    public getAsset(key: string): any {
+        return Assets.get(key);
+    }
 }
 
 export const loader = Loader.getInstance();

@@ -18,6 +18,14 @@ const plugins = [
   }),
   new HtmlWebpackPlugin({
     template: path.resolve(__dirname, "../index.html")
+  }),
+  new CopyPlugin({
+    patterns: [
+      {
+        from: 'src/assets',
+        to: 'assets'
+      }
+    ]
   })
 ];
 
@@ -41,6 +49,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "../dist"),
     filename: "[name].bundle.js",
+    publicPath: '/',
     clean: true
   },
   module: {
@@ -65,7 +74,7 @@ module.exports = {
         test: /\.(gif|png|mp3|jpe?g|svg|xml|ogg)$/i,
         type: 'asset/resource',
         generator: {
-          filename: 'assets/[name][ext]'
+          filename: 'assets/[path][name][ext]'
         }
       },
       {
@@ -87,5 +96,16 @@ module.exports = {
       '@': path.resolve(__dirname, '../src')
     }
   },
-  plugins
+  plugins,
+  devServer: {
+    static: {
+      directory: path.join(__dirname, '../dist'),
+      publicPath: '/',
+      watch: true
+    },
+    compress: true,
+    port: 8080,
+    hot: true,
+    historyApiFallback: true
+  }
 };

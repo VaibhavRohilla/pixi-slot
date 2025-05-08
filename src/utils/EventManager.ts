@@ -11,9 +11,9 @@ export enum GameEvent {
   ASSET_LOAD_PROGRESS = 'asset:loadProgress',
 
   // Game State Events
-  GAME_STARTED = 'game:started',
-  GAME_PAUSED = 'game:paused',
-  GAME_RESUMED = 'game:resumed',
+  GAME_STARTED = 'gameStarted',
+  GAME_PAUSED = 'gamePaused',
+  GAME_RESUMED = 'gameResumed',
   GAME_OVER = 'game:over',
 
   // Input Events
@@ -39,7 +39,7 @@ export enum GameEvent {
   UI_HOVER = 'ui:hover',
 
   // Debug Events
-  DEBUG_TOGGLE = 'debug:toggle',
+  DEBUG_TOGGLE = 'debugToggle',
   DEBUG_METRICS_UPDATE = 'debug:metricsUpdate',
 
   // Mobile Events
@@ -50,11 +50,15 @@ export enum GameEvent {
   TOUCH_END = 'mobile:touchEnd',
   TOUCH_MOVE = 'mobile:touchMove',
   TOUCH_CANCEL = 'mobile:touchCancel',
+
+  // Loading Events
+  LOADING_COMPLETE = 'loadingComplete',
+  LOADING_ERROR = 'loadingError',
 }
 
 export class EventManager {
   private static instance: EventManager;
-  private eventHandlers: Map<string, Set<Function>> = new Map();
+  private listeners: Map<string, Function[]> = new Map();
 
   private constructor() {}
 
@@ -65,41 +69,32 @@ export class EventManager {
     return EventManager.instance;
   }
 
-  public emit(event: string, data?: any): void {
-    const handlers = this.eventHandlers.get(event);
-    if (handlers) {
-      handlers.forEach(handler => {
-        try {
-          handler(data);
-        } catch (error) {
-          console.error(`Error in event handler for ${event}:`, error);
-        }
-      });
+  public on(event: GameEvent, callback: Function): void {
+    if (!this.listeners.has(event)) {
+      this.listeners.set(event, []);
     }
+    this.listeners.get(event)?.push(callback);
   }
 
-  public on(event: string, handler: Function): void {
-    if (!this.eventHandlers.has(event)) {
-      this.eventHandlers.set(event, new Set());
-    }
-    const handlers = this.eventHandlers.get(event);
-    if (handlers) {
-      handlers.add(handler);
-    }
-  }
-
-  public off(event: string, handler: Function): void {
-    const handlers = this.eventHandlers.get(event);
-    if (handlers) {
-      handlers.delete(handler);
-      if (handlers.size === 0) {
-        this.eventHandlers.delete(event);
+  public off(event: GameEvent, callback: Function): void {
+    const callbacks = this.listeners.get(event);
+    if (callbacks) {
+      const index = callbacks.indexOf(callback);
+      if (index !== -1) {
+        callbacks.splice(index, 1);
       }
     }
   }
 
+  public emit(event: GameEvent, data?: any): void {
+    const callbacks = this.listeners.get(event);
+    if (callbacks) {
+      callbacks.forEach(callback => callback(data));
+    }
+  }
+
   public destroy(): void {
-    this.eventHandlers.clear();
+    this.listeners.clear();
     (EventManager as any).instance = null;
   }
 }

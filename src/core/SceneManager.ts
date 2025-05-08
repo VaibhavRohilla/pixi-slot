@@ -1,106 +1,60 @@
-import { Application, Container } from 'pixi.js';
-import { Scene } from './Scene';
-import { PhysicsManager } from './PhysicsManager';
-import { MobileManager } from '../utils/MobileManager';
-import { EventManager, GameEvent } from '../utils/EventManager';
+import { Container } from 'pixi.js';
+import { Scene } from '../scenes/Scene';
+import { Globals } from '../Global';
 
 export class SceneManager {
-  private static instance: SceneManager;
-  private stage: Container;
-  private scenes: Map<string, Scene> = new Map();
-  private currentScene: Scene | null = null;
-  private physicsManager: PhysicsManager | null;
-  private mobileManager: MobileManager;
-  private usePhysics: boolean;
-  private eventManager: EventManager;
+    private static instance: SceneManager;
+    private currentScene: Scene | null = null;
+    private scenes: Map<string, Scene> = new Map();
 
-  private constructor() {
-    this.stage = null as any;
-    this.usePhysics = false;
-    this.eventManager = EventManager.getInstance();
-    this.mobileManager = MobileManager.getInstance();
-    this.physicsManager = null;
-  }
+    private constructor() {}
 
-  public static getInstance(): SceneManager {
-    if (!SceneManager.instance) {
-      SceneManager.instance = new SceneManager();
-    }
-    return SceneManager.instance;
-  }
-
-  public init(stage: Container): void {
-    this.stage = stage;
-  }
-
-  public addScene(scene: Scene): void {
-    if (this.scenes.has(scene.name)) {
-      // Remove logger.warn
-    }
-    this.scenes.set(scene.name, scene);
-    this.stage.addChild(scene);
-    scene.visible = false;
-  }
-
-  public removeScene(sceneName: string): void {
-    const scene = this.scenes.get(sceneName);
-    if (scene) {
-      this.stage.removeChild(scene);
-      this.scenes.delete(sceneName);
-    }
-  }
-
-  public async changeScene(sceneName: string): Promise<void> {
-    const scene = this.scenes.get(sceneName);
-    if (!scene) {
-      throw new Error(`Scene ${sceneName} not found`);
+    public static getInstance(): SceneManager {
+        if (!SceneManager.instance) {
+            SceneManager.instance = new SceneManager();
+        }
+        return SceneManager.instance;
     }
 
-    try {
-      if (this.currentScene) {
-        await this.currentScene.destroy();
-      }
-      this.currentScene = scene;
-      await this.currentScene.init();
-      this.eventManager.emit(GameEvent.SCENE_CHANGED, { scene: sceneName });
-    } catch (error) {
-      throw error;
+    public addScene(name: string, scene: Scene): void {
+        this.scenes.set(name, scene);
     }
-  }
 
-  public getCurrentScene(): Scene | null {
-    return this.currentScene;
-  }
+    public async changeScene(name: string): Promise<void> {
+        const scene = this.scenes.get(name);
+        if (!scene) {
+            throw new Error(`Scene ${name} not found`);
+        }
 
-  public getScene(sceneName: string): Scene | undefined {
-    return this.scenes.get(sceneName);
-  }
+        if (!Globals.app) {
+            throw new Error('Application not initialized');
+        }
 
-  public update(delta: number): void {
-    if (this.currentScene) {
-      this.currentScene.update(delta);
-      if (this.usePhysics && this.physicsManager) {
-        this.physicsManager.update(delta);
-      }
+        // Remove current scene if exists
+        if (this.currentScene) {
+            Globals.app.stage.removeChild(this.currentScene);
+        }
+
+        // Add new scene
+        this.currentScene = scene;
+        Globals.app.stage.addChild(scene);
     }
-  }
 
-  public onResize(width: number, height: number): void {
-    this.scenes.forEach(scene => {
-      scene.resize();
-    });
-  }
-
-  public destroy(): void {
-    if (this.physicsManager) {
-      this.physicsManager.destroy();
+    public getCurrentScene(): Scene | null {
+        return this.currentScene;
     }
-    this.mobileManager.destroy();
-    this.scenes.forEach(scene => {
-      scene.destroy();
-    });
-    this.scenes.clear();
-    this.currentScene = null;
-    (SceneManager as any).instance = null;
-  }
+
+    public onResize(): void {
+        if (this.currentScene) {
+            this.currentScene.onResize();
+        }
+    }
+
+    public destroy(): void {
+        if (this.currentScene && Globals.app) {
+            Globals.app.stage.removeChild(this.currentScene);
+        }
+        this.scenes.clear();
+        this.currentScene = null;
+    }
 }

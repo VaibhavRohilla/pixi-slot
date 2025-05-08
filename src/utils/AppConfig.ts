@@ -1,5 +1,5 @@
 import { DisplayObject, Point } from 'pixi.js';
-import { global } from '../Global';
+import { Globals } from '../Global';
 
 export type AnchorPosition = 'topLeft' | 'topRight' | 'bottomLeft' | 'bottomRight' | 'center';
 export type ScaleMode = 'fit' | 'fill' | 'none';
@@ -270,7 +270,7 @@ export const getSafeAreaInsets = (): {
 } => {
   const insets = { top: 0, right: 0, bottom: 0, left: 0 };
 
-  if (global.isMobile && typeof window !== 'undefined') {
+  if (Globals.isMobile && typeof window !== 'undefined') {
     const style = getComputedStyle(document.documentElement);
     insets.top = parseInt(style.getPropertyValue('--sat') || '0');
     insets.right = parseInt(style.getPropertyValue('--sar') || '0');
