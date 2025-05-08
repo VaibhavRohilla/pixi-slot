@@ -1,0 +1,2530 @@
+{
+	"textures": [
+		{
+			"image": "freeSpinsIntro-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2048,
+				"h": 2048
+			},
+			"scale": 0.5,
+			"frames": [
+				{
+					"filename": "Jack Card Throw107",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 27,
+						"w": 398,
+						"h": 574
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 398,
+						"h": 574
+					}
+				},
+				{
+					"filename": "Jack Card Throw106",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 35,
+						"y": 0,
+						"w": 370,
+						"h": 503
+					},
+					"frame": {
+						"x": 1,
+						"y": 577,
+						"w": 370,
+						"h": 503
+					}
+				},
+				{
+					"filename": "Near Win Frame_00133",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 500,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 67,
+						"y": 62,
+						"w": 366,
+						"h": 507
+					},
+					"frame": {
+						"x": 1,
+						"y": 1082,
+						"w": 366,
+						"h": 507
+					}
+				},
+				{
+					"filename": "Jack Card Throw105",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 56,
+						"y": 13,
+						"w": 323,
+						"h": 382
+					},
+					"frame": {
+						"x": 1,
+						"y": 1591,
+						"w": 323,
+						"h": 382
+					}
+				},
+				{
+					"filename": "Near Win Frame_00128",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 500,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 1,
+						"y": 1975,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "Near Win Frame_00129",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 500,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 1,
+						"y": 1975,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "Near Win Frame_00130",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 500,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 1,
+						"y": 1975,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "Near Win Frame_00137",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 500,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 1,
+						"y": 1975,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "Near Win Frame_00138",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 500,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 1,
+						"y": 1975,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "Near Win Frame_00135",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 500,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 159,
+						"y": 62,
+						"w": 274,
+						"h": 405
+					},
+					"frame": {
+						"x": 326,
+						"y": 1591,
+						"w": 274,
+						"h": 405
+					}
+				},
+				{
+					"filename": "Near Win Frame_00134",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 500,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 67,
+						"y": 62,
+						"w": 366,
+						"h": 507
+					},
+					"frame": {
+						"x": 369,
+						"y": 1082,
+						"w": 366,
+						"h": 507
+					}
+				},
+				{
+					"filename": "Near Win Frame_00132",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 500,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 67,
+						"y": 166,
+						"w": 274,
+						"h": 403
+					},
+					"frame": {
+						"x": 602,
+						"y": 1591,
+						"w": 274,
+						"h": 403
+					}
+				},
+				{
+					"filename": "Jack Card Throw103",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 75,
+						"w": 203,
+						"h": 320
+					},
+					"frame": {
+						"x": 373,
+						"y": 577,
+						"w": 203,
+						"h": 320
+					}
+				},
+				{
+					"filename": "Jack Card Throw104",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 80,
+						"y": 143,
+						"w": 250,
+						"h": 252
+					},
+					"frame": {
+						"x": 401,
+						"y": 1,
+						"w": 250,
+						"h": 252
+					}
+				},
+				{
+					"filename": "Jack Card Throw082",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 187,
+						"w": 201,
+						"h": 290
+					},
+					"frame": {
+						"x": 401,
+						"y": 255,
+						"w": 201,
+						"h": 290
+					}
+				},
+				{
+					"filename": "Jack Card Throw083",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 187,
+						"w": 201,
+						"h": 290
+					},
+					"frame": {
+						"x": 578,
+						"y": 547,
+						"w": 201,
+						"h": 290
+					}
+				},
+				{
+					"filename": "Jack Card Throw084",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 187,
+						"w": 201,
+						"h": 290
+					},
+					"frame": {
+						"x": 578,
+						"y": 547,
+						"w": 201,
+						"h": 290
+					}
+				},
+				{
+					"filename": "Jack Card Throw085",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 187,
+						"w": 201,
+						"h": 290
+					},
+					"frame": {
+						"x": 578,
+						"y": 547,
+						"w": 201,
+						"h": 290
+					}
+				},
+				{
+					"filename": "Jack Card Throw086",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 187,
+						"w": 201,
+						"h": 290
+					},
+					"frame": {
+						"x": 578,
+						"y": 547,
+						"w": 201,
+						"h": 290
+					}
+				},
+				{
+					"filename": "Jack Card Throw070",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 88,
+						"y": 184,
+						"w": 222,
+						"h": 214
+					},
+					"frame": {
+						"x": 578,
+						"y": 839,
+						"w": 222,
+						"h": 214
+					}
+				},
+				{
+					"filename": "Jack Card Throw081",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 187,
+						"w": 201,
+						"h": 289
+					},
+					"frame": {
+						"x": 604,
+						"y": 255,
+						"w": 201,
+						"h": 289
+					}
+				},
+				{
+					"filename": "Jack Card Throw069",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 88,
+						"y": 184,
+						"w": 220,
+						"h": 214
+					},
+					"frame": {
+						"x": 653,
+						"y": 1,
+						"w": 220,
+						"h": 214
+					}
+				},
+				{
+					"filename": "Jack Card Throw080",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 187,
+						"w": 200,
+						"h": 288
+					},
+					"frame": {
+						"x": 781,
+						"y": 546,
+						"w": 200,
+						"h": 288
+					}
+				},
+				{
+					"filename": "Jack Card Throw087",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 188,
+						"w": 197,
+						"h": 289
+					},
+					"frame": {
+						"x": 807,
+						"y": 217,
+						"w": 197,
+						"h": 289
+					}
+				},
+				{
+					"filename": "Jack Card Throw068",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 87,
+						"y": 184,
+						"w": 217,
+						"h": 214
+					},
+					"frame": {
+						"x": 875,
+						"y": 1,
+						"w": 217,
+						"h": 214
+					}
+				},
+				{
+					"filename": "Jack Card Throw079",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 187,
+						"w": 195,
+						"h": 286
+					},
+					"frame": {
+						"x": 737,
+						"y": 1055,
+						"w": 195,
+						"h": 286
+					}
+				},
+				{
+					"filename": "Jack Card Throw071",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 87,
+						"y": 184,
+						"w": 214,
+						"h": 213
+					},
+					"frame": {
+						"x": 802,
+						"y": 836,
+						"w": 214,
+						"h": 213
+					}
+				},
+				{
+					"filename": "Jack Card Throw067",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 87,
+						"y": 185,
+						"w": 213,
+						"h": 213
+					},
+					"frame": {
+						"x": 737,
+						"y": 1343,
+						"w": 213,
+						"h": 213
+					}
+				},
+				{
+					"filename": "Jack Card Throw088",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 188,
+						"w": 192,
+						"h": 289
+					},
+					"frame": {
+						"x": 934,
+						"y": 1051,
+						"w": 192,
+						"h": 289
+					}
+				},
+				{
+					"filename": "Jack Card Throw089",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 188,
+						"w": 188,
+						"h": 289
+					},
+					"frame": {
+						"x": 983,
+						"y": 508,
+						"w": 188,
+						"h": 289
+					}
+				},
+				{
+					"filename": "Jack Card Throw095",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 189,
+						"w": 183,
+						"h": 249
+					},
+					"frame": {
+						"x": 1018,
+						"y": 799,
+						"w": 183,
+						"h": 249
+					}
+				},
+				{
+					"filename": "Jack Card Throw078",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 187,
+						"w": 190,
+						"h": 283
+					},
+					"frame": {
+						"x": 1006,
+						"y": 217,
+						"w": 190,
+						"h": 283
+					}
+				},
+				{
+					"filename": "Jack Card Throw066",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 87,
+						"y": 185,
+						"w": 208,
+						"h": 212
+					},
+					"frame": {
+						"x": 1094,
+						"y": 1,
+						"w": 208,
+						"h": 212
+					}
+				},
+				{
+					"filename": "Jack Card Throw090",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 189,
+						"w": 185,
+						"h": 285
+					},
+					"frame": {
+						"x": 1173,
+						"y": 502,
+						"w": 185,
+						"h": 285
+					}
+				},
+				{
+					"filename": "Jack Card Throw091",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 189,
+						"w": 183,
+						"h": 280
+					},
+					"frame": {
+						"x": 1198,
+						"y": 215,
+						"w": 183,
+						"h": 280
+					}
+				},
+				{
+					"filename": "Jack Card Throw065",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 87,
+						"y": 186,
+						"w": 203,
+						"h": 211
+					},
+					"frame": {
+						"x": 1304,
+						"y": 1,
+						"w": 203,
+						"h": 211
+					}
+				},
+				{
+					"filename": "Jack Card Throw077",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 186,
+						"w": 185,
+						"h": 270
+					},
+					"frame": {
+						"x": 878,
+						"y": 1558,
+						"w": 185,
+						"h": 270
+					}
+				},
+				{
+					"filename": "Jack Card Throw072",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 87,
+						"y": 184,
+						"w": 202,
+						"h": 210
+					},
+					"frame": {
+						"x": 952,
+						"y": 1342,
+						"w": 202,
+						"h": 210
+					}
+				},
+				{
+					"filename": "Jack Card Throw064",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 87,
+						"y": 187,
+						"w": 198,
+						"h": 210
+					},
+					"frame": {
+						"x": 878,
+						"y": 1830,
+						"w": 198,
+						"h": 210
+					}
+				},
+				{
+					"filename": "Jack Card Throw092",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 189,
+						"w": 183,
+						"h": 272
+					},
+					"frame": {
+						"x": 1128,
+						"y": 1050,
+						"w": 183,
+						"h": 272
+					}
+				},
+				{
+					"filename": "Jack Card Throw094",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 189,
+						"w": 183,
+						"h": 254
+					},
+					"frame": {
+						"x": 1203,
+						"y": 789,
+						"w": 183,
+						"h": 254
+					}
+				},
+				{
+					"filename": "Jack Card Throw093",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 189,
+						"w": 183,
+						"h": 262
+					},
+					"frame": {
+						"x": 1360,
+						"y": 497,
+						"w": 183,
+						"h": 262
+					}
+				},
+				{
+					"filename": "Jack Card Throw076",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 186,
+						"w": 180,
+						"h": 248
+					},
+					"frame": {
+						"x": 1383,
+						"y": 214,
+						"w": 180,
+						"h": 248
+					}
+				},
+				{
+					"filename": "Jack Card Throw063",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 87,
+						"y": 187,
+						"w": 193,
+						"h": 209
+					},
+					"frame": {
+						"x": 1509,
+						"y": 1,
+						"w": 193,
+						"h": 209
+					}
+				},
+				{
+					"filename": "Jack Card Throw096",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 189,
+						"w": 183,
+						"h": 243
+					},
+					"frame": {
+						"x": 1065,
+						"y": 1554,
+						"w": 183,
+						"h": 243
+					}
+				},
+				{
+					"filename": "Jack Card Throw073",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 185,
+						"w": 189,
+						"h": 212
+					},
+					"frame": {
+						"x": 1156,
+						"y": 1324,
+						"w": 189,
+						"h": 212
+					}
+				},
+				{
+					"filename": "Jack Card Throw097",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 189,
+						"w": 183,
+						"h": 233
+					},
+					"frame": {
+						"x": 1313,
+						"y": 1045,
+						"w": 183,
+						"h": 233
+					}
+				},
+				{
+					"filename": "Jack Card Throw102",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 163,
+						"w": 183,
+						"h": 232
+					},
+					"frame": {
+						"x": 1388,
+						"y": 761,
+						"w": 183,
+						"h": 232
+					}
+				},
+				{
+					"filename": "Jack Card Throw062",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 188,
+						"w": 189,
+						"h": 208
+					},
+					"frame": {
+						"x": 1545,
+						"y": 464,
+						"w": 189,
+						"h": 208
+					}
+				},
+				{
+					"filename": "Jack Card Throw098",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 189,
+						"w": 183,
+						"h": 212
+					},
+					"frame": {
+						"x": 1565,
+						"y": 212,
+						"w": 183,
+						"h": 212
+					}
+				},
+				{
+					"filename": "Jack Card Throw061",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 189,
+						"w": 185,
+						"h": 207
+					},
+					"frame": {
+						"x": 1704,
+						"y": 1,
+						"w": 185,
+						"h": 207
+					}
+				},
+				{
+					"filename": "Jack Card Throw075",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 85,
+						"y": 186,
+						"w": 177,
+						"h": 219
+					},
+					"frame": {
+						"x": 1078,
+						"y": 1799,
+						"w": 177,
+						"h": 219
+					}
+				},
+				{
+					"filename": "Jack Card Throw074",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 185,
+						"w": 176,
+						"h": 217
+					},
+					"frame": {
+						"x": 1250,
+						"y": 1538,
+						"w": 176,
+						"h": 217
+					}
+				},
+				{
+					"filename": "Jack Card Throw000",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 189,
+						"w": 183,
+						"h": 206
+					},
+					"frame": {
+						"x": 1347,
+						"y": 1280,
+						"w": 183,
+						"h": 206
+					}
+				},
+				{
+					"filename": "Jack Card Throw001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 189,
+						"w": 183,
+						"h": 206
+					},
+					"frame": {
+						"x": 1498,
+						"y": 995,
+						"w": 183,
+						"h": 206
+					}
+				},
+				{
+					"filename": "Jack Card Throw002",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 189,
+						"w": 183,
+						"h": 206
+					},
+					"frame": {
+						"x": 1573,
+						"y": 674,
+						"w": 183,
+						"h": 206
+					}
+				},
+				{
+					"filename": "Jack Card Throw058",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 189,
+						"w": 183,
+						"h": 206
+					},
+					"frame": {
+						"x": 1736,
+						"y": 426,
+						"w": 183,
+						"h": 206
+					}
+				},
+				{
+					"filename": "Jack Card Throw059",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 189,
+						"w": 183,
+						"h": 206
+					},
+					"frame": {
+						"x": 1750,
+						"y": 210,
+						"w": 183,
+						"h": 206
+					}
+				},
+				{
+					"filename": "Near Win Frame_00131",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 500,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 67,
+						"y": 363,
+						"w": 140,
+						"h": 206
+					},
+					"frame": {
+						"x": 1891,
+						"y": 1,
+						"w": 140,
+						"h": 206
+					}
+				},
+				{
+					"filename": "Jack Card Throw060",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 189,
+						"w": 183,
+						"h": 206
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1757,
+						"w": 183,
+						"h": 206
+					}
+				},
+				{
+					"filename": "Jack Card Throw099",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 189,
+						"w": 183,
+						"h": 206
+					},
+					"frame": {
+						"x": 1428,
+						"y": 1488,
+						"w": 183,
+						"h": 206
+					}
+				},
+				{
+					"filename": "Jack Card Throw100",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 189,
+						"w": 183,
+						"h": 206
+					},
+					"frame": {
+						"x": 1532,
+						"y": 1203,
+						"w": 183,
+						"h": 206
+					}
+				},
+				{
+					"filename": "Jack Card Throw101",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 189,
+						"w": 183,
+						"h": 206
+					},
+					"frame": {
+						"x": 1683,
+						"y": 882,
+						"w": 183,
+						"h": 206
+					}
+				},
+				{
+					"filename": "Jack Card Throw003",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 189,
+						"w": 182,
+						"h": 206
+					},
+					"frame": {
+						"x": 1758,
+						"y": 634,
+						"w": 182,
+						"h": 206
+					}
+				},
+				{
+					"filename": "Jack Card Throw004",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 189,
+						"w": 182,
+						"h": 206
+					},
+					"frame": {
+						"x": 1442,
+						"y": 1696,
+						"w": 182,
+						"h": 206
+					}
+				},
+				{
+					"filename": "Jack Card Throw056",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 189,
+						"w": 182,
+						"h": 206
+					},
+					"frame": {
+						"x": 1613,
+						"y": 1411,
+						"w": 182,
+						"h": 206
+					}
+				},
+				{
+					"filename": "Jack Card Throw057",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 189,
+						"w": 182,
+						"h": 206
+					},
+					"frame": {
+						"x": 1717,
+						"y": 1090,
+						"w": 182,
+						"h": 206
+					}
+				},
+				{
+					"filename": "Jack Card Throw010",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 88,
+						"y": 187,
+						"w": 179,
+						"h": 208
+					},
+					"frame": {
+						"x": 1868,
+						"y": 842,
+						"w": 179,
+						"h": 208
+					}
+				},
+				{
+					"filename": "Near Win Frame_00136",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 500,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 292,
+						"y": 62,
+						"w": 141,
+						"h": 208
+					},
+					"frame": {
+						"x": 1901,
+						"y": 1052,
+						"w": 141,
+						"h": 208
+					}
+				},
+				{
+					"filename": "Jack Card Throw006",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 87,
+						"y": 188,
+						"w": 181,
+						"h": 207
+					},
+					"frame": {
+						"x": 1626,
+						"y": 1619,
+						"w": 181,
+						"h": 207
+					}
+				},
+				{
+					"filename": "Jack Card Throw007",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 87,
+						"y": 188,
+						"w": 181,
+						"h": 207
+					},
+					"frame": {
+						"x": 1797,
+						"y": 1298,
+						"w": 181,
+						"h": 207
+					}
+				},
+				{
+					"filename": "Jack Card Throw008",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 87,
+						"y": 188,
+						"w": 181,
+						"h": 207
+					},
+					"frame": {
+						"x": 1626,
+						"y": 1828,
+						"w": 181,
+						"h": 207
+					}
+				},
+				{
+					"filename": "Jack Card Throw009",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 87,
+						"y": 188,
+						"w": 181,
+						"h": 207
+					},
+					"frame": {
+						"x": 1809,
+						"y": 1507,
+						"w": 181,
+						"h": 207
+					}
+				},
+				{
+					"filename": "Jack Card Throw051",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 87,
+						"y": 188,
+						"w": 181,
+						"h": 207
+					},
+					"frame": {
+						"x": 1809,
+						"y": 1716,
+						"w": 181,
+						"h": 207
+					}
+				}
+			]
+		},
+		{
+			"image": "freeSpinsIntro-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1024,
+				"h": 2048
+			},
+			"scale": 0.5,
+			"frames": [
+				{
+					"filename": "Jack Card Throw052",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 87,
+						"y": 188,
+						"w": 181,
+						"h": 207
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 181,
+						"h": 207
+					}
+				},
+				{
+					"filename": "Jack Card Throw053",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 87,
+						"y": 188,
+						"w": 181,
+						"h": 207
+					},
+					"frame": {
+						"x": 184,
+						"y": 1,
+						"w": 181,
+						"h": 207
+					}
+				},
+				{
+					"filename": "Jack Card Throw054",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 87,
+						"y": 188,
+						"w": 181,
+						"h": 207
+					},
+					"frame": {
+						"x": 367,
+						"y": 1,
+						"w": 181,
+						"h": 207
+					}
+				},
+				{
+					"filename": "Jack Card Throw005",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 87,
+						"y": 189,
+						"w": 181,
+						"h": 206
+					},
+					"frame": {
+						"x": 550,
+						"y": 1,
+						"w": 181,
+						"h": 206
+					}
+				},
+				{
+					"filename": "Jack Card Throw055",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 87,
+						"y": 189,
+						"w": 181,
+						"h": 206
+					},
+					"frame": {
+						"x": 733,
+						"y": 1,
+						"w": 181,
+						"h": 206
+					}
+				},
+				{
+					"filename": "Jack Card Throw011",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 88,
+						"y": 187,
+						"w": 179,
+						"h": 208
+					},
+					"frame": {
+						"x": 550,
+						"y": 209,
+						"w": 179,
+						"h": 208
+					}
+				},
+				{
+					"filename": "Jack Card Throw012",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 88,
+						"y": 187,
+						"w": 179,
+						"h": 208
+					},
+					"frame": {
+						"x": 731,
+						"y": 209,
+						"w": 179,
+						"h": 208
+					}
+				},
+				{
+					"filename": "Jack Card Throw013",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 88,
+						"y": 187,
+						"w": 179,
+						"h": 208
+					},
+					"frame": {
+						"x": 1,
+						"y": 210,
+						"w": 179,
+						"h": 208
+					}
+				},
+				{
+					"filename": "Jack Card Throw047",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 88,
+						"y": 187,
+						"w": 179,
+						"h": 208
+					},
+					"frame": {
+						"x": 182,
+						"y": 210,
+						"w": 179,
+						"h": 208
+					}
+				},
+				{
+					"filename": "Jack Card Throw048",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 88,
+						"y": 187,
+						"w": 179,
+						"h": 208
+					},
+					"frame": {
+						"x": 363,
+						"y": 210,
+						"w": 179,
+						"h": 208
+					}
+				},
+				{
+					"filename": "Jack Card Throw049",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 88,
+						"y": 187,
+						"w": 179,
+						"h": 208
+					},
+					"frame": {
+						"x": 544,
+						"y": 419,
+						"w": 179,
+						"h": 208
+					}
+				},
+				{
+					"filename": "Jack Card Throw050",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 88,
+						"y": 187,
+						"w": 179,
+						"h": 208
+					},
+					"frame": {
+						"x": 725,
+						"y": 419,
+						"w": 179,
+						"h": 208
+					}
+				},
+				{
+					"filename": "Jack Card Throw014",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 89,
+						"y": 186,
+						"w": 178,
+						"h": 208
+					},
+					"frame": {
+						"x": 1,
+						"y": 420,
+						"w": 178,
+						"h": 208
+					}
+				},
+				{
+					"filename": "Jack Card Throw046",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 89,
+						"y": 186,
+						"w": 178,
+						"h": 208
+					},
+					"frame": {
+						"x": 181,
+						"y": 420,
+						"w": 178,
+						"h": 208
+					}
+				},
+				{
+					"filename": "Jack Card Throw017",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 89,
+						"y": 185,
+						"w": 177,
+						"h": 209
+					},
+					"frame": {
+						"x": 361,
+						"y": 420,
+						"w": 177,
+						"h": 209
+					}
+				},
+				{
+					"filename": "Jack Card Throw043",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 89,
+						"y": 185,
+						"w": 177,
+						"h": 209
+					},
+					"frame": {
+						"x": 1,
+						"y": 630,
+						"w": 177,
+						"h": 209
+					}
+				},
+				{
+					"filename": "Jack Card Throw015",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 89,
+						"y": 186,
+						"w": 177,
+						"h": 208
+					},
+					"frame": {
+						"x": 180,
+						"y": 630,
+						"w": 177,
+						"h": 208
+					}
+				},
+				{
+					"filename": "Jack Card Throw016",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 89,
+						"y": 186,
+						"w": 177,
+						"h": 208
+					},
+					"frame": {
+						"x": 540,
+						"y": 629,
+						"w": 177,
+						"h": 208
+					}
+				},
+				{
+					"filename": "Jack Card Throw044",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 89,
+						"y": 186,
+						"w": 177,
+						"h": 208
+					},
+					"frame": {
+						"x": 359,
+						"y": 631,
+						"w": 177,
+						"h": 208
+					}
+				},
+				{
+					"filename": "Jack Card Throw045",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 89,
+						"y": 186,
+						"w": 177,
+						"h": 208
+					},
+					"frame": {
+						"x": 180,
+						"y": 840,
+						"w": 177,
+						"h": 208
+					}
+				},
+				{
+					"filename": "Jack Card Throw018",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 90,
+						"y": 185,
+						"w": 176,
+						"h": 209
+					},
+					"frame": {
+						"x": 1,
+						"y": 841,
+						"w": 176,
+						"h": 209
+					}
+				},
+				{
+					"filename": "Jack Card Throw042",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 90,
+						"y": 185,
+						"w": 176,
+						"h": 209
+					},
+					"frame": {
+						"x": 719,
+						"y": 629,
+						"w": 176,
+						"h": 209
+					}
+				},
+				{
+					"filename": "Jack Card Throw019",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 90,
+						"y": 185,
+						"w": 175,
+						"h": 209
+					},
+					"frame": {
+						"x": 538,
+						"y": 839,
+						"w": 175,
+						"h": 209
+					}
+				},
+				{
+					"filename": "Jack Card Throw020",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 90,
+						"y": 185,
+						"w": 175,
+						"h": 209
+					},
+					"frame": {
+						"x": 359,
+						"y": 841,
+						"w": 175,
+						"h": 209
+					}
+				},
+				{
+					"filename": "Jack Card Throw040",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 90,
+						"y": 185,
+						"w": 175,
+						"h": 209
+					},
+					"frame": {
+						"x": 179,
+						"y": 1050,
+						"w": 175,
+						"h": 209
+					}
+				},
+				{
+					"filename": "Jack Card Throw041",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 90,
+						"y": 185,
+						"w": 175,
+						"h": 209
+					},
+					"frame": {
+						"x": 1,
+						"y": 1052,
+						"w": 175,
+						"h": 209
+					}
+				},
+				{
+					"filename": "Jack Card Throw021",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 91,
+						"y": 184,
+						"w": 174,
+						"h": 210
+					},
+					"frame": {
+						"x": 715,
+						"y": 840,
+						"w": 174,
+						"h": 210
+					}
+				},
+				{
+					"filename": "Jack Card Throw022",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 91,
+						"y": 184,
+						"w": 174,
+						"h": 210
+					},
+					"frame": {
+						"x": 536,
+						"y": 1050,
+						"w": 174,
+						"h": 210
+					}
+				},
+				{
+					"filename": "Jack Card Throw023",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 91,
+						"y": 184,
+						"w": 174,
+						"h": 210
+					},
+					"frame": {
+						"x": 356,
+						"y": 1052,
+						"w": 174,
+						"h": 210
+					}
+				},
+				{
+					"filename": "Jack Card Throw037",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 91,
+						"y": 184,
+						"w": 174,
+						"h": 210
+					},
+					"frame": {
+						"x": 178,
+						"y": 1261,
+						"w": 174,
+						"h": 210
+					}
+				},
+				{
+					"filename": "Jack Card Throw038",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 91,
+						"y": 184,
+						"w": 174,
+						"h": 210
+					},
+					"frame": {
+						"x": 1,
+						"y": 1263,
+						"w": 174,
+						"h": 210
+					}
+				},
+				{
+					"filename": "Jack Card Throw039",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 91,
+						"y": 184,
+						"w": 174,
+						"h": 210
+					},
+					"frame": {
+						"x": 712,
+						"y": 1052,
+						"w": 174,
+						"h": 210
+					}
+				},
+				{
+					"filename": "Jack Card Throw025",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 91,
+						"y": 183,
+						"w": 173,
+						"h": 211
+					},
+					"frame": {
+						"x": 532,
+						"y": 1262,
+						"w": 173,
+						"h": 211
+					}
+				},
+				{
+					"filename": "Jack Card Throw026",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 91,
+						"y": 183,
+						"w": 173,
+						"h": 211
+					},
+					"frame": {
+						"x": 354,
+						"y": 1264,
+						"w": 173,
+						"h": 211
+					}
+				},
+				{
+					"filename": "Jack Card Throw034",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 91,
+						"y": 183,
+						"w": 173,
+						"h": 211
+					},
+					"frame": {
+						"x": 177,
+						"y": 1473,
+						"w": 173,
+						"h": 211
+					}
+				},
+				{
+					"filename": "Jack Card Throw035",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 91,
+						"y": 183,
+						"w": 173,
+						"h": 211
+					},
+					"frame": {
+						"x": 1,
+						"y": 1475,
+						"w": 173,
+						"h": 211
+					}
+				},
+				{
+					"filename": "Jack Card Throw024",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 91,
+						"y": 184,
+						"w": 173,
+						"h": 210
+					},
+					"frame": {
+						"x": 707,
+						"y": 1264,
+						"w": 173,
+						"h": 210
+					}
+				},
+				{
+					"filename": "Jack Card Throw027",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 91,
+						"y": 183,
+						"w": 173,
+						"h": 210
+					},
+					"frame": {
+						"x": 529,
+						"y": 1475,
+						"w": 173,
+						"h": 210
+					}
+				},
+				{
+					"filename": "Jack Card Throw028",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 91,
+						"y": 183,
+						"w": 173,
+						"h": 210
+					},
+					"frame": {
+						"x": 352,
+						"y": 1477,
+						"w": 173,
+						"h": 210
+					}
+				},
+				{
+					"filename": "Jack Card Throw032",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 91,
+						"y": 183,
+						"w": 173,
+						"h": 210
+					},
+					"frame": {
+						"x": 176,
+						"y": 1686,
+						"w": 173,
+						"h": 210
+					}
+				},
+				{
+					"filename": "Jack Card Throw033",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 91,
+						"y": 183,
+						"w": 173,
+						"h": 210
+					},
+					"frame": {
+						"x": 1,
+						"y": 1688,
+						"w": 173,
+						"h": 210
+					}
+				},
+				{
+					"filename": "Jack Card Throw036",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 91,
+						"y": 184,
+						"w": 173,
+						"h": 210
+					},
+					"frame": {
+						"x": 704,
+						"y": 1476,
+						"w": 173,
+						"h": 210
+					}
+				},
+				{
+					"filename": "Jack Card Throw029",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 92,
+						"y": 183,
+						"w": 172,
+						"h": 210
+					},
+					"frame": {
+						"x": 527,
+						"y": 1687,
+						"w": 172,
+						"h": 210
+					}
+				},
+				{
+					"filename": "Jack Card Throw030",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 92,
+						"y": 183,
+						"w": 172,
+						"h": 210
+					},
+					"frame": {
+						"x": 351,
+						"y": 1689,
+						"w": 172,
+						"h": 210
+					}
+				},
+				{
+					"filename": "Jack Card Throw031",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 439,
+						"h": 631
+					},
+					"spriteSourceSize": {
+						"x": 92,
+						"y": 183,
+						"w": 172,
+						"h": 210
+					},
+					"frame": {
+						"x": 701,
+						"y": 1688,
+						"w": 172,
+						"h": 210
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:613560d85bc540a38acf155bf1e11b50:25da3afc665807ce8a68752785757535:f1ad2ee08d43e4499336c59bd5bb4cf7$"
+	}
+}

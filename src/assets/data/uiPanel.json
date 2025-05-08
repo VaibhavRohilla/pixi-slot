@@ -1,0 +1,1406 @@
+{
+	"textures": [
+		{
+			"image": "uiPanel.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1920,
+				"h": 1121
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Landscape Bottom bar",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1918,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1918,
+						"h": 50
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1918,
+						"h": 50
+					}
+				},
+				{
+					"filename": "Landscape Bottom bar_disabled",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1918,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1918,
+						"h": 50
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1918,
+						"h": 50
+					}
+				},
+				{
+					"filename": "Bet-panel",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1076,
+						"h": 575
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1076,
+						"h": 575
+					},
+					"frame": {
+						"x": 1,
+						"y": 53,
+						"w": 1076,
+						"h": 575
+					}
+				},
+				{
+					"filename": "Bet-panel_disabled",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1076,
+						"h": 575
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1076,
+						"h": 575
+					},
+					"frame": {
+						"x": 1,
+						"y": 53,
+						"w": 1076,
+						"h": 575
+					}
+				},
+				{
+					"filename": "Bet-Win panel - land",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 615,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 615,
+						"h": 122
+					},
+					"frame": {
+						"x": 1079,
+						"y": 53,
+						"w": 615,
+						"h": 122
+					}
+				},
+				{
+					"filename": "BetField",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 240,
+						"h": 107
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 9,
+						"w": 222,
+						"h": 89
+					},
+					"frame": {
+						"x": 1696,
+						"y": 53,
+						"w": 222,
+						"h": 89
+					}
+				},
+				{
+					"filename": "BetField_disabled",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 240,
+						"h": 107
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 9,
+						"w": 222,
+						"h": 89
+					},
+					"frame": {
+						"x": 1696,
+						"y": 144,
+						"w": 222,
+						"h": 89
+					}
+				},
+				{
+					"filename": "Bet-Win panel - land_disabled",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 615,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 615,
+						"h": 122
+					},
+					"frame": {
+						"x": 1079,
+						"y": 177,
+						"w": 615,
+						"h": 122
+					}
+				},
+				{
+					"filename": "Spin-Land-base",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 210,
+						"h": 130
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 210,
+						"h": 130
+					},
+					"frame": {
+						"x": 1696,
+						"y": 235,
+						"w": 210,
+						"h": 130
+					}
+				},
+				{
+					"filename": "Bet-Win panel - port",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1080,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1080,
+						"h": 200
+					},
+					"frame": {
+						"x": 1,
+						"y": 630,
+						"w": 1080,
+						"h": 200
+					}
+				},
+				{
+					"filename": "Bet-Win panel - port_disabled",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1080,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1080,
+						"h": 200
+					},
+					"frame": {
+						"x": 1,
+						"y": 832,
+						"w": 1080,
+						"h": 200
+					}
+				},
+				{
+					"filename": "Portrait top bar",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1080,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1080,
+						"h": 86
+					},
+					"frame": {
+						"x": 1,
+						"y": 1034,
+						"w": 1080,
+						"h": 86
+					}
+				},
+				{
+					"filename": "Portrait top bar_disabled",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1080,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1080,
+						"h": 86
+					},
+					"frame": {
+						"x": 1,
+						"y": 1034,
+						"w": 1080,
+						"h": 86
+					}
+				},
+				{
+					"filename": "Spin port",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 156,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 156,
+						"h": 156
+					},
+					"frame": {
+						"x": 1079,
+						"y": 367,
+						"w": 156,
+						"h": 156
+					}
+				},
+				{
+					"filename": "Clock",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 57,
+						"h": 57
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 57,
+						"h": 57
+					},
+					"frame": {
+						"x": 1079,
+						"y": 301,
+						"w": 57,
+						"h": 57
+					}
+				},
+				{
+					"filename": "Clock_disabled",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 57,
+						"h": 57
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 57,
+						"h": 57
+					},
+					"frame": {
+						"x": 1079,
+						"y": 301,
+						"w": 57,
+						"h": 57
+					}
+				},
+				{
+					"filename": "Exit",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 69
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 69
+					},
+					"frame": {
+						"x": 1079,
+						"y": 525,
+						"w": 68,
+						"h": 69
+					}
+				},
+				{
+					"filename": "Bet_panel_closing_marker_land",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 224,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 194,
+						"y": 26,
+						"w": 20,
+						"h": 13
+					},
+					"frame": {
+						"x": 1079,
+						"y": 596,
+						"w": 20,
+						"h": 13
+					}
+				},
+				{
+					"filename": "Bet_panel_closing_marker_land_disabled",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 224,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 194,
+						"y": 26,
+						"w": 20,
+						"h": 13
+					},
+					"frame": {
+						"x": 1079,
+						"y": 611,
+						"w": 20,
+						"h": 13
+					}
+				},
+				{
+					"filename": "Bet_panel_opening_marker_land",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 224,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 194,
+						"y": 25,
+						"w": 20,
+						"h": 13
+					},
+					"frame": {
+						"x": 1138,
+						"y": 301,
+						"w": 20,
+						"h": 13
+					}
+				},
+				{
+					"filename": "Bet_panel_opening_marker_land_disabled",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 224,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 194,
+						"y": 25,
+						"w": 20,
+						"h": 13
+					},
+					"frame": {
+						"x": 1138,
+						"y": 316,
+						"w": 20,
+						"h": 13
+					}
+				},
+				{
+					"filename": "BetField-selected - port",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 294,
+						"h": 127
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 294,
+						"h": 127
+					},
+					"frame": {
+						"x": 1237,
+						"y": 301,
+						"w": 294,
+						"h": 127
+					}
+				},
+				{
+					"filename": "Spin port_disabled",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 156,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 156,
+						"h": 156
+					},
+					"frame": {
+						"x": 1533,
+						"y": 301,
+						"w": 156,
+						"h": 156
+					}
+				},
+				{
+					"filename": "BetField-selected - port_disabled",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 294,
+						"h": 127
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 294,
+						"h": 127
+					},
+					"frame": {
+						"x": 1237,
+						"y": 430,
+						"w": 294,
+						"h": 127
+					}
+				},
+				{
+					"filename": "Arrow button",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 69,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 69,
+						"h": 68
+					},
+					"frame": {
+						"x": 1149,
+						"y": 525,
+						"w": 69,
+						"h": 68
+					}
+				},
+				{
+					"filename": "Spin-Land-base_disabled",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 210,
+						"h": 130
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 210,
+						"h": 130
+					},
+					"frame": {
+						"x": 1691,
+						"y": 367,
+						"w": 210,
+						"h": 130
+					}
+				},
+				{
+					"filename": "Gamble-button-port",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 138,
+						"h": 138
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 138,
+						"h": 138
+					},
+					"frame": {
+						"x": 1533,
+						"y": 459,
+						"w": 138,
+						"h": 138
+					}
+				},
+				{
+					"filename": "BetField-selected",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 240,
+						"h": 107
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 240,
+						"h": 107
+					},
+					"frame": {
+						"x": 1673,
+						"y": 499,
+						"w": 240,
+						"h": 107
+					}
+				},
+				{
+					"filename": "BetField - port",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 294,
+						"h": 127
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 9,
+						"w": 276,
+						"h": 109
+					},
+					"frame": {
+						"x": 1220,
+						"y": 559,
+						"w": 276,
+						"h": 109
+					}
+				},
+				{
+					"filename": "Arrow button_disabled",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 69,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 69,
+						"h": 68
+					},
+					"frame": {
+						"x": 1149,
+						"y": 595,
+						"w": 69,
+						"h": 68
+					}
+				},
+				{
+					"filename": "Auto Off",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 130,
+						"h": 130
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 130,
+						"h": 130
+					},
+					"frame": {
+						"x": 1083,
+						"y": 665,
+						"w": 130,
+						"h": 130
+					}
+				},
+				{
+					"filename": "Gamble-button-port_disabled",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 138,
+						"h": 138
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 138,
+						"h": 138
+					},
+					"frame": {
+						"x": 1498,
+						"y": 599,
+						"w": 138,
+						"h": 138
+					}
+				},
+				{
+					"filename": "BetField - port_disabled",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 294,
+						"h": 127
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 9,
+						"w": 276,
+						"h": 109
+					},
+					"frame": {
+						"x": 1215,
+						"y": 670,
+						"w": 276,
+						"h": 109
+					}
+				},
+				{
+					"filename": "BetField-selected_disabled",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 240,
+						"h": 107
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 240,
+						"h": 107
+					},
+					"frame": {
+						"x": 1638,
+						"y": 608,
+						"w": 240,
+						"h": 107
+					}
+				},
+				{
+					"filename": "Auto Off_disabled",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 130,
+						"h": 130
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 130,
+						"h": 130
+					},
+					"frame": {
+						"x": 1638,
+						"y": 717,
+						"w": 130,
+						"h": 130
+					}
+				},
+				{
+					"filename": "Auto On",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 130,
+						"h": 130
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 130,
+						"h": 130
+					},
+					"frame": {
+						"x": 1493,
+						"y": 739,
+						"w": 130,
+						"h": 130
+					}
+				},
+				{
+					"filename": "Auto On_disabled",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 130,
+						"h": 130
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 130,
+						"h": 130
+					},
+					"frame": {
+						"x": 1770,
+						"y": 717,
+						"w": 130,
+						"h": 130
+					}
+				},
+				{
+					"filename": "Gamble-button-land",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 130,
+						"h": 130
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 130,
+						"h": 130
+					},
+					"frame": {
+						"x": 1083,
+						"y": 871,
+						"w": 130,
+						"h": 130
+					}
+				},
+				{
+					"filename": "Exit_disabled",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 69
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 69
+					},
+					"frame": {
+						"x": 1083,
+						"y": 797,
+						"w": 68,
+						"h": 69
+					}
+				},
+				{
+					"filename": "Fullscreen",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 68
+					},
+					"frame": {
+						"x": 1153,
+						"y": 797,
+						"w": 68,
+						"h": 68
+					}
+				},
+				{
+					"filename": "Spin-Land-arrows",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 102,
+						"h": 109
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 102,
+						"h": 109
+					},
+					"frame": {
+						"x": 1083,
+						"y": 1003,
+						"w": 102,
+						"h": 109
+					}
+				},
+				{
+					"filename": "Spin-Land-arrows_disabled",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 102,
+						"h": 109
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 102,
+						"h": 109
+					},
+					"frame": {
+						"x": 1187,
+						"y": 1003,
+						"w": 102,
+						"h": 109
+					}
+				},
+				{
+					"filename": "Gamble-button-land_disabled",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 130,
+						"h": 130
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 130,
+						"h": 130
+					},
+					"frame": {
+						"x": 1215,
+						"y": 871,
+						"w": 130,
+						"h": 130
+					}
+				},
+				{
+					"filename": "Fullscreen_disabled",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 68
+					},
+					"frame": {
+						"x": 1223,
+						"y": 781,
+						"w": 68,
+						"h": 68
+					}
+				},
+				{
+					"filename": "Gamble off",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 68
+					},
+					"frame": {
+						"x": 1293,
+						"y": 781,
+						"w": 68,
+						"h": 68
+					}
+				},
+				{
+					"filename": "Gamble off_disabled",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 68
+					},
+					"frame": {
+						"x": 1291,
+						"y": 1003,
+						"w": 68,
+						"h": 68
+					}
+				},
+				{
+					"filename": "Gamble on",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 68
+					},
+					"frame": {
+						"x": 1363,
+						"y": 781,
+						"w": 68,
+						"h": 68
+					}
+				},
+				{
+					"filename": "Gamble on_disabled",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 68
+					},
+					"frame": {
+						"x": 1361,
+						"y": 851,
+						"w": 68,
+						"h": 68
+					}
+				},
+				{
+					"filename": "History",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 68
+					},
+					"frame": {
+						"x": 1347,
+						"y": 921,
+						"w": 68,
+						"h": 68
+					}
+				},
+				{
+					"filename": "History_disabled",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 68
+					},
+					"frame": {
+						"x": 1361,
+						"y": 991,
+						"w": 68,
+						"h": 68
+					}
+				},
+				{
+					"filename": "Info",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 68
+					},
+					"frame": {
+						"x": 1417,
+						"y": 921,
+						"w": 68,
+						"h": 68
+					}
+				},
+				{
+					"filename": "Info_disabled",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 68
+					},
+					"frame": {
+						"x": 1431,
+						"y": 991,
+						"w": 68,
+						"h": 68
+					}
+				},
+				{
+					"filename": "Lobby",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 68
+					},
+					"frame": {
+						"x": 1487,
+						"y": 871,
+						"w": 68,
+						"h": 68
+					}
+				},
+				{
+					"filename": "Lobby_disabled",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 68
+					},
+					"frame": {
+						"x": 1501,
+						"y": 941,
+						"w": 68,
+						"h": 68
+					}
+				},
+				{
+					"filename": "MENU",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 68
+					},
+					"frame": {
+						"x": 1557,
+						"y": 871,
+						"w": 68,
+						"h": 68
+					}
+				},
+				{
+					"filename": "MENU_disabled",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 68
+					},
+					"frame": {
+						"x": 1501,
+						"y": 1011,
+						"w": 68,
+						"h": 68
+					}
+				},
+				{
+					"filename": "Music off",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 68
+					},
+					"frame": {
+						"x": 1571,
+						"y": 941,
+						"w": 68,
+						"h": 68
+					}
+				},
+				{
+					"filename": "Music off_disabled",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 68
+					},
+					"frame": {
+						"x": 1627,
+						"y": 849,
+						"w": 68,
+						"h": 68
+					}
+				},
+				{
+					"filename": "Music on",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 68
+					},
+					"frame": {
+						"x": 1571,
+						"y": 1011,
+						"w": 68,
+						"h": 68
+					}
+				},
+				{
+					"filename": "Music on_disabled",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 68
+					},
+					"frame": {
+						"x": 1641,
+						"y": 919,
+						"w": 68,
+						"h": 68
+					}
+				},
+				{
+					"filename": "Rules",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 68
+					},
+					"frame": {
+						"x": 1697,
+						"y": 849,
+						"w": 68,
+						"h": 68
+					}
+				},
+				{
+					"filename": "Rules_disabled",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 68
+					},
+					"frame": {
+						"x": 1641,
+						"y": 989,
+						"w": 68,
+						"h": 68
+					}
+				},
+				{
+					"filename": "Sound off",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 68
+					},
+					"frame": {
+						"x": 1767,
+						"y": 849,
+						"w": 68,
+						"h": 68
+					}
+				},
+				{
+					"filename": "Sound off_disabled",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 68
+					},
+					"frame": {
+						"x": 1837,
+						"y": 849,
+						"w": 68,
+						"h": 68
+					}
+				},
+				{
+					"filename": "Sound on",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 68
+					},
+					"frame": {
+						"x": 1711,
+						"y": 919,
+						"w": 68,
+						"h": 68
+					}
+				},
+				{
+					"filename": "Sound on_disabled",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 68
+					},
+					"frame": {
+						"x": 1711,
+						"y": 989,
+						"w": 68,
+						"h": 68
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:2b682d2395fd684959834047d6e5c4aa:f0a130a4b63c9bb971705ff62948fca7:5ca9edc3797778b3508bc8d1a73bfbf0$"
+	}
+}

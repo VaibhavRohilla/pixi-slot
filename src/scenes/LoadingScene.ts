@@ -61,16 +61,21 @@ export class LoadingScene extends Scene {
             console.log('Initializing assets...');
             await this.loader.init();
 
-            // Load essential bundles first
-            console.log('Loading preload bundle...');
-            await this.loader.load('preload', this.updateLoadingBar.bind(this));
+            // Load bundles in sequence
+            console.log('Loading game bundle...');
+            await this.loader.load('game', this.updateLoadingBar.bind(this));
 
-            // Load other bundles
-            console.log('Loading remaining bundles...');
-            await this.loader.load('ui', this.updateLoadingBar.bind(this));
-            await this.loader.load('table', this.updateLoadingBar.bind(this));
-            await this.loader.load('popups', this.updateLoadingBar.bind(this));
-            await this.loader.load('buttons', this.updateLoadingBar.bind(this));
+            console.log('Loading winlines bundle...');
+            await this.loader.load('winlines', this.updateLoadingBar.bind(this));
+
+            console.log('Loading symbols bundle...');
+            await this.loader.load('symbols', this.updateLoadingBar.bind(this));
+
+            console.log('Loading freeSpinsIntro bundle...');
+            await this.loader.load('freeSpinsIntro', this.updateLoadingBar.bind(this));
+
+            console.log('Loading audio bundle...');
+            await this.loader.load('audio', this.updateLoadingBar.bind(this));
 
             console.log('All assets loaded successfully');
             this.eventManager.emit(GameEvent.LOADING_COMPLETE);
