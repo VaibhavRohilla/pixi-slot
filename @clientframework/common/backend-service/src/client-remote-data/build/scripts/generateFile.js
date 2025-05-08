@@ -1,0 +1,18 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var errorMsgData_1 = require("../multilanguage/errorMsgData");
+var remoteDataConfig_1 = require("./remoteDataConfig");
+var errorCodesData_1 = require("../multilanguage/errorCodesData");
+var gameMsgData_1 = require("../multilanguage/gameMsgData");
+var fs = require("fs");
+//const dir = fs.readdirSync("./assets");
+//fs.writeFileSync("assets.ts", "const assets = [" + dir.map((file) => ' "' + file + '"') + "]");
+var errorObj = errorMsgData_1.getErrorMsgData();
+var errorCodesObj = errorCodesData_1.getErrorCodesData();
+var gameObj = gameMsgData_1.getGameMsgData();
+console.log("generating js");
+//console.log("errorObj", errorObj);
+//fs.writeFileSync("errorTexts.js", JSON.stringify(errorObj, null, 2) , 'utf-8');
+var util = require('util');
+var fileStr = "\nconsole.log(\"" + remoteDataConfig_1.remoteDataConfig.generatedFileName + " started\");\nconst remoteErrorMsgData = " + util.inspect(errorObj, false, 2, false) + "\n\nconst remoteErrorCodesData = " + util.inspect(errorCodesObj, false, 2, false) + "\n\nconst remoteGameMsgData = " + util.inspect(gameObj, false, 2, false) + "\nconsole.log(\"" + remoteDataConfig_1.remoteDataConfig.generatedFileName + " remoteErrorMsgData\", remoteErrorMsgData);\nvar event = new Event('" + remoteDataConfig_1.remoteDataConfig.generatedFileEventName + "');\nevent.attachedData = {\n    remoteErrorMsgData,\n    remoteErrorCodesData,\n    remoteGameMsgData\n};\nconsole.log(\"dispatchEvent\", event);\ndocument.dispatchEvent(event);\nconsole.log(\"" + remoteDataConfig_1.remoteDataConfig.generatedFileName + " finished\");\n";
+fs.writeFileSync("deploy/" + remoteDataConfig_1.remoteDataConfig.generatedFileName, fileStr);

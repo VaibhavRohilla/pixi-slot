@@ -1,0 +1,98 @@
+{
+    "extends": ["tslint:latest"],
+     "cliOptions": {
+    "exclude": [
+      "node_modules/**/*"
+    ]},
+    "rules": {
+        "align": [
+            true,
+            "parameters",
+            "arguments",
+            "statements"
+        ],
+        "ban": false,
+        "class-name": true,
+        "comment-format": [
+            true,
+            "check-space"
+        ],
+
+        "max-classes-per-file":[true, 2],
+        "no-invalid-template-strings": false,
+        "interface-name":false,
+        "new-parens":false,
+        "no-submodule-imports": false,
+        "no-return-await": false,
+        "array-type": false,
+        "no-namespace": false,
+        "ordered-imports": false,
+        "object-literal-sort-keys": false,
+        "curly": false,
+        "eofline": false,
+        "forin": false,
+        "indent": [ true, "spaces" ],
+        "member-access": false,
+        "jsdoc-format": true,
+        "jsx-no-lambda": false,
+        "jsx-no-multiline-js": false,
+        "label-position": true,
+        "max-line-length": [ true, 120 ],
+        "no-any": false,
+        "no-arg": true,
+        "no-bitwise": false,
+      "no-implicit-dependencies": false,
+      "variable-name": false,
+      "one-variable-per-declaration": false,
+      "member-ordering": false,
+      "no-this-assignment": false,
+        "no-unused-expression": false,
+      "prefer-const": false,
+        "no-angle-bracket-type-assertion":false,
+        "no-console": [
+            true,
+            "debug",
+            "info",
+            "time",
+            "timeEnd",
+            "trace"
+        ],
+        "no-consecutive-blank-lines": false,
+        "no-construct": true,
+        "no-debugger": true,
+        "no-duplicate-variable": true,
+        "no-empty": false,
+        "no-eval": true,
+        "no-shadowed-variable": true,
+        "no-string-literal": false,
+        "no-switch-case-fall-through": true,
+        "no-trailing-whitespace": false,
+        "no-use-before-declare": true,
+        "no-var-requires": false,
+        "one-line": [
+            true,
+            "check-catch",
+            "check-else",
+            "check-open-brace",
+            "check-whitespace"
+        ],
+        "quotemark": [true, "single", "jsx-double"],
+        "radix": false,
+        "semicolon": [false, "never"],
+        "switch-default": false,
+
+        "triple-equals": [ false, "allow-null-check" ],
+        "typedef": [
+            false,
+            "parameter",
+            "property-declaration"
+        ],
+        "typedef-whitespace": [
+            false
+        ],
+
+        "whitespace": [
+            false
+        ]
+    }
+}

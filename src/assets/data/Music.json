@@ -1,0 +1,62 @@
+{
+	"textures": [
+		{
+			"image": "Music.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 139,
+				"h": 70
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Music off.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 68
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 68,
+						"h": 68
+					}
+				},
+				{
+					"filename": "Music on.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 68
+					},
+					"frame": {
+						"x": 70,
+						"y": 1,
+						"w": 68,
+						"h": 68
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:3cdaacf4c9fd53f9a82a55be1ebf27b3:090ac6298ab2034097045780c29e0ae5:ea2840c3f6c6de6925e7d9c81eac08f4$"
+	}
+}

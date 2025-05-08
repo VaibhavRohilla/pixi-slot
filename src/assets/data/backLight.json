@@ -1,0 +1,1910 @@
+{
+	"textures": [
+		{
+			"image": "backLight.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2048,
+				"h": 2048
+			},
+			"scale": 0.56,
+			"frames": [
+				{
+					"filename": "Back Light_00013",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 7,
+						"w": 281,
+						"h": 151
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 281,
+						"h": 151
+					}
+				},
+				{
+					"filename": "Back Light_00000",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 3,
+						"w": 280,
+						"h": 153
+					},
+					"frame": {
+						"x": 284,
+						"y": 1,
+						"w": 280,
+						"h": 153
+					}
+				},
+				{
+					"filename": "Back Light_00014",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 6,
+						"w": 280,
+						"h": 153
+					},
+					"frame": {
+						"x": 1,
+						"y": 154,
+						"w": 280,
+						"h": 153
+					}
+				},
+				{
+					"filename": "Back Light_00058",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 3,
+						"w": 280,
+						"h": 153
+					},
+					"frame": {
+						"x": 566,
+						"y": 1,
+						"w": 280,
+						"h": 153
+					}
+				},
+				{
+					"filename": "Back Light_00012",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 5,
+						"w": 280,
+						"h": 152
+					},
+					"frame": {
+						"x": 848,
+						"y": 1,
+						"w": 280,
+						"h": 152
+					}
+				},
+				{
+					"filename": "Back Light_00059",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 3,
+						"w": 280,
+						"h": 152
+					},
+					"frame": {
+						"x": 1130,
+						"y": 1,
+						"w": 280,
+						"h": 152
+					}
+				},
+				{
+					"filename": "Back Light_00056",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 6,
+						"w": 280,
+						"h": 150
+					},
+					"frame": {
+						"x": 1412,
+						"y": 1,
+						"w": 280,
+						"h": 150
+					}
+				},
+				{
+					"filename": "Back Light_00080",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 1,
+						"w": 279,
+						"h": 160
+					},
+					"frame": {
+						"x": 1694,
+						"y": 1,
+						"w": 279,
+						"h": 160
+					}
+				},
+				{
+					"filename": "Back Light_00042",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 5,
+						"w": 279,
+						"h": 155
+					},
+					"frame": {
+						"x": 1412,
+						"y": 153,
+						"w": 279,
+						"h": 155
+					}
+				},
+				{
+					"filename": "Back Light_00015",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 5,
+						"w": 279,
+						"h": 154
+					},
+					"frame": {
+						"x": 1693,
+						"y": 163,
+						"w": 279,
+						"h": 154
+					}
+				},
+				{
+					"filename": "Back Light_00045",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 6,
+						"w": 279,
+						"h": 154
+					},
+					"frame": {
+						"x": 848,
+						"y": 155,
+						"w": 279,
+						"h": 154
+					}
+				},
+				{
+					"filename": "Back Light_00016",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 6,
+						"w": 279,
+						"h": 153
+					},
+					"frame": {
+						"x": 1129,
+						"y": 155,
+						"w": 279,
+						"h": 153
+					}
+				},
+				{
+					"filename": "Back Light_00043",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 6,
+						"w": 279,
+						"h": 153
+					},
+					"frame": {
+						"x": 1129,
+						"y": 310,
+						"w": 279,
+						"h": 153
+					}
+				},
+				{
+					"filename": "Back Light_00044",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 7,
+						"w": 279,
+						"h": 153
+					},
+					"frame": {
+						"x": 1410,
+						"y": 310,
+						"w": 279,
+						"h": 153
+					}
+				},
+				{
+					"filename": "Back Light_00057",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 5,
+						"w": 279,
+						"h": 153
+					},
+					"frame": {
+						"x": 1691,
+						"y": 319,
+						"w": 279,
+						"h": 153
+					}
+				},
+				{
+					"filename": "Back Light_00001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 279,
+						"h": 152
+					},
+					"frame": {
+						"x": 283,
+						"y": 156,
+						"w": 279,
+						"h": 152
+					}
+				},
+				{
+					"filename": "Back Light_00060",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 3,
+						"w": 279,
+						"h": 152
+					},
+					"frame": {
+						"x": 1,
+						"y": 309,
+						"w": 279,
+						"h": 152
+					}
+				},
+				{
+					"filename": "Back Light_00011",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 6,
+						"w": 279,
+						"h": 150
+					},
+					"frame": {
+						"x": 564,
+						"y": 156,
+						"w": 279,
+						"h": 150
+					}
+				},
+				{
+					"filename": "Back Light_00046",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 9,
+						"w": 279,
+						"h": 150
+					},
+					"frame": {
+						"x": 564,
+						"y": 308,
+						"w": 279,
+						"h": 150
+					}
+				},
+				{
+					"filename": "Back Light_00047",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 9,
+						"w": 279,
+						"h": 150
+					},
+					"frame": {
+						"x": 282,
+						"y": 310,
+						"w": 279,
+						"h": 150
+					}
+				},
+				{
+					"filename": "Back Light_00055",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 7,
+						"w": 279,
+						"h": 150
+					},
+					"frame": {
+						"x": 845,
+						"y": 311,
+						"w": 279,
+						"h": 150
+					}
+				},
+				{
+					"filename": "Back Light_00008",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 5,
+						"w": 279,
+						"h": 149
+					},
+					"frame": {
+						"x": 563,
+						"y": 460,
+						"w": 279,
+						"h": 149
+					}
+				},
+				{
+					"filename": "Back Light_00038",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 5,
+						"w": 278,
+						"h": 156
+					},
+					"frame": {
+						"x": 282,
+						"y": 462,
+						"w": 278,
+						"h": 156
+					}
+				},
+				{
+					"filename": "Back Light_00065",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 4,
+						"w": 278,
+						"h": 155
+					},
+					"frame": {
+						"x": 1,
+						"y": 463,
+						"w": 278,
+						"h": 155
+					}
+				},
+				{
+					"filename": "Back Light_00089",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 278,
+						"h": 155
+					},
+					"frame": {
+						"x": 844,
+						"y": 463,
+						"w": 278,
+						"h": 155
+					}
+				},
+				{
+					"filename": "Back Light_00019",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 5,
+						"w": 278,
+						"h": 154
+					},
+					"frame": {
+						"x": 562,
+						"y": 611,
+						"w": 278,
+						"h": 154
+					}
+				},
+				{
+					"filename": "Back Light_00020",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 5,
+						"w": 278,
+						"h": 154
+					},
+					"frame": {
+						"x": 1,
+						"y": 620,
+						"w": 278,
+						"h": 154
+					}
+				},
+				{
+					"filename": "Back Light_00021",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 4,
+						"w": 278,
+						"h": 154
+					},
+					"frame": {
+						"x": 281,
+						"y": 620,
+						"w": 278,
+						"h": 154
+					}
+				},
+				{
+					"filename": "Back Light_00064",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 4,
+						"w": 278,
+						"h": 154
+					},
+					"frame": {
+						"x": 1124,
+						"y": 465,
+						"w": 278,
+						"h": 154
+					}
+				},
+				{
+					"filename": "Back Light_00002",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 278,
+						"h": 152
+					},
+					"frame": {
+						"x": 842,
+						"y": 620,
+						"w": 278,
+						"h": 152
+					}
+				},
+				{
+					"filename": "Back Light_00063",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 5,
+						"w": 278,
+						"h": 152
+					},
+					"frame": {
+						"x": 561,
+						"y": 767,
+						"w": 278,
+						"h": 152
+					}
+				},
+				{
+					"filename": "Back Light_00007",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 4,
+						"w": 278,
+						"h": 151
+					},
+					"frame": {
+						"x": 1404,
+						"y": 465,
+						"w": 278,
+						"h": 151
+					}
+				},
+				{
+					"filename": "Back Light_00053",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 7,
+						"w": 278,
+						"h": 151
+					},
+					"frame": {
+						"x": 1684,
+						"y": 474,
+						"w": 278,
+						"h": 151
+					}
+				},
+				{
+					"filename": "Back Light_00054",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 8,
+						"w": 278,
+						"h": 150
+					},
+					"frame": {
+						"x": 1404,
+						"y": 618,
+						"w": 278,
+						"h": 150
+					}
+				},
+				{
+					"filename": "Back Light_00010",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 6,
+						"w": 278,
+						"h": 148
+					},
+					"frame": {
+						"x": 1122,
+						"y": 621,
+						"w": 278,
+						"h": 148
+					}
+				},
+				{
+					"filename": "Back Light_00088",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 2,
+						"w": 277,
+						"h": 157
+					},
+					"frame": {
+						"x": 1684,
+						"y": 627,
+						"w": 277,
+						"h": 157
+					}
+				},
+				{
+					"filename": "Back Light_00018",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 3,
+						"w": 277,
+						"h": 155
+					},
+					"frame": {
+						"x": 1402,
+						"y": 770,
+						"w": 277,
+						"h": 155
+					}
+				},
+				{
+					"filename": "Back Light_00066",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 277,
+						"h": 155
+					},
+					"frame": {
+						"x": 1122,
+						"y": 771,
+						"w": 277,
+						"h": 155
+					}
+				},
+				{
+					"filename": "Back Light_00061",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 4,
+						"w": 277,
+						"h": 153
+					},
+					"frame": {
+						"x": 841,
+						"y": 774,
+						"w": 277,
+						"h": 153
+					}
+				},
+				{
+					"filename": "Back Light_00017",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 5,
+						"w": 277,
+						"h": 152
+					},
+					"frame": {
+						"x": 1681,
+						"y": 786,
+						"w": 277,
+						"h": 152
+					}
+				},
+				{
+					"filename": "Back Light_00073",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 6,
+						"w": 277,
+						"h": 151
+					},
+					"frame": {
+						"x": 1401,
+						"y": 927,
+						"w": 277,
+						"h": 151
+					}
+				},
+				{
+					"filename": "Back Light_00009",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 5,
+						"w": 277,
+						"h": 150
+					},
+					"frame": {
+						"x": 1120,
+						"y": 928,
+						"w": 277,
+						"h": 150
+					}
+				},
+				{
+					"filename": "Back Light_00037",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 4,
+						"w": 276,
+						"h": 157
+					},
+					"frame": {
+						"x": 1680,
+						"y": 940,
+						"w": 276,
+						"h": 157
+					}
+				},
+				{
+					"filename": "Back Light_00039",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 3,
+						"w": 276,
+						"h": 157
+					},
+					"frame": {
+						"x": 1,
+						"y": 776,
+						"w": 276,
+						"h": 157
+					}
+				},
+				{
+					"filename": "Back Light_00040",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 2,
+						"w": 276,
+						"h": 157
+					},
+					"frame": {
+						"x": 279,
+						"y": 776,
+						"w": 276,
+						"h": 157
+					}
+				},
+				{
+					"filename": "Back Light_00036",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 4,
+						"w": 276,
+						"h": 156
+					},
+					"frame": {
+						"x": 557,
+						"y": 921,
+						"w": 276,
+						"h": 156
+					}
+				},
+				{
+					"filename": "Back Light_00067",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 276,
+						"h": 156
+					},
+					"frame": {
+						"x": 835,
+						"y": 929,
+						"w": 276,
+						"h": 156
+					}
+				},
+				{
+					"filename": "Back Light_00079",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 4,
+						"w": 276,
+						"h": 156
+					},
+					"frame": {
+						"x": 1,
+						"y": 935,
+						"w": 276,
+						"h": 156
+					}
+				},
+				{
+					"filename": "Back Light_00041",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 4,
+						"w": 276,
+						"h": 155
+					},
+					"frame": {
+						"x": 279,
+						"y": 935,
+						"w": 276,
+						"h": 155
+					}
+				},
+				{
+					"filename": "Back Light_00022",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 5,
+						"w": 276,
+						"h": 154
+					},
+					"frame": {
+						"x": 557,
+						"y": 1079,
+						"w": 276,
+						"h": 154
+					}
+				},
+				{
+					"filename": "Back Light_00068",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 276,
+						"h": 154
+					},
+					"frame": {
+						"x": 279,
+						"y": 1092,
+						"w": 276,
+						"h": 154
+					}
+				},
+				{
+					"filename": "Back Light_00025",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 5,
+						"w": 276,
+						"h": 153
+					},
+					"frame": {
+						"x": 1,
+						"y": 1093,
+						"w": 276,
+						"h": 153
+					}
+				},
+				{
+					"filename": "Back Light_00062",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 5,
+						"w": 276,
+						"h": 152
+					},
+					"frame": {
+						"x": 1113,
+						"y": 1080,
+						"w": 276,
+						"h": 152
+					}
+				},
+				{
+					"filename": "Back Light_00052",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 7,
+						"w": 276,
+						"h": 151
+					},
+					"frame": {
+						"x": 835,
+						"y": 1087,
+						"w": 276,
+						"h": 151
+					}
+				},
+				{
+					"filename": "Back Light_00028",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 5,
+						"w": 276,
+						"h": 150
+					},
+					"frame": {
+						"x": 557,
+						"y": 1235,
+						"w": 276,
+						"h": 150
+					}
+				},
+				{
+					"filename": "Back Light_00049",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 9,
+						"w": 276,
+						"h": 150
+					},
+					"frame": {
+						"x": 1391,
+						"y": 1080,
+						"w": 276,
+						"h": 150
+					}
+				},
+				{
+					"filename": "Back Light_00071",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 5,
+						"w": 276,
+						"h": 150
+					},
+					"frame": {
+						"x": 1669,
+						"y": 1099,
+						"w": 276,
+						"h": 150
+					}
+				},
+				{
+					"filename": "Back Light_00026",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 7,
+						"w": 276,
+						"h": 149
+					},
+					"frame": {
+						"x": 1391,
+						"y": 1232,
+						"w": 276,
+						"h": 149
+					}
+				},
+				{
+					"filename": "Back Light_00048",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 9,
+						"w": 276,
+						"h": 149
+					},
+					"frame": {
+						"x": 1113,
+						"y": 1234,
+						"w": 276,
+						"h": 149
+					}
+				},
+				{
+					"filename": "Back Light_00072",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 7,
+						"w": 276,
+						"h": 149
+					},
+					"frame": {
+						"x": 835,
+						"y": 1240,
+						"w": 276,
+						"h": 149
+					}
+				},
+				{
+					"filename": "Back Light_00081",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 2,
+						"w": 275,
+						"h": 158
+					},
+					"frame": {
+						"x": 1669,
+						"y": 1251,
+						"w": 275,
+						"h": 158
+					}
+				},
+				{
+					"filename": "Back Light_00083",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 1,
+						"w": 275,
+						"h": 158
+					},
+					"frame": {
+						"x": 1391,
+						"y": 1383,
+						"w": 275,
+						"h": 158
+					}
+				},
+				{
+					"filename": "Back Light_00006",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 3,
+						"w": 275,
+						"h": 153
+					},
+					"frame": {
+						"x": 1113,
+						"y": 1385,
+						"w": 275,
+						"h": 153
+					}
+				},
+				{
+					"filename": "Back Light_00050",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 8,
+						"w": 275,
+						"h": 153
+					},
+					"frame": {
+						"x": 1668,
+						"y": 1411,
+						"w": 275,
+						"h": 153
+					}
+				},
+				{
+					"filename": "Back Light_00074",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 5,
+						"w": 275,
+						"h": 153
+					},
+					"frame": {
+						"x": 1,
+						"y": 1248,
+						"w": 275,
+						"h": 153
+					}
+				},
+				{
+					"filename": "Back Light_00005",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 3,
+						"w": 275,
+						"h": 152
+					},
+					"frame": {
+						"x": 278,
+						"y": 1248,
+						"w": 275,
+						"h": 152
+					}
+				},
+				{
+					"filename": "Back Light_00029",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 5,
+						"w": 275,
+						"h": 152
+					},
+					"frame": {
+						"x": 555,
+						"y": 1387,
+						"w": 275,
+						"h": 152
+					}
+				},
+				{
+					"filename": "Back Light_00003",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 3,
+						"w": 275,
+						"h": 151
+					},
+					"frame": {
+						"x": 278,
+						"y": 1402,
+						"w": 275,
+						"h": 151
+					}
+				},
+				{
+					"filename": "Back Light_00051",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 8,
+						"w": 275,
+						"h": 151
+					},
+					"frame": {
+						"x": 1,
+						"y": 1403,
+						"w": 275,
+						"h": 151
+					}
+				},
+				{
+					"filename": "Back Light_00027",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 6,
+						"w": 275,
+						"h": 149
+					},
+					"frame": {
+						"x": 832,
+						"y": 1391,
+						"w": 275,
+						"h": 149
+					}
+				},
+				{
+					"filename": "Back Light_00082",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 3,
+						"w": 274,
+						"h": 157
+					},
+					"frame": {
+						"x": 555,
+						"y": 1541,
+						"w": 274,
+						"h": 157
+					}
+				},
+				{
+					"filename": "Back Light_00035",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 3,
+						"w": 274,
+						"h": 156
+					},
+					"frame": {
+						"x": 278,
+						"y": 1555,
+						"w": 274,
+						"h": 156
+					}
+				},
+				{
+					"filename": "Back Light_00075",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 3,
+						"w": 274,
+						"h": 156
+					},
+					"frame": {
+						"x": 1,
+						"y": 1556,
+						"w": 274,
+						"h": 156
+					}
+				},
+				{
+					"filename": "Back Light_00087",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 3,
+						"w": 274,
+						"h": 155
+					},
+					"frame": {
+						"x": 1109,
+						"y": 1540,
+						"w": 274,
+						"h": 155
+					}
+				},
+				{
+					"filename": "Back Light_00084",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 3,
+						"w": 274,
+						"h": 154
+					},
+					"frame": {
+						"x": 831,
+						"y": 1542,
+						"w": 274,
+						"h": 154
+					}
+				},
+				{
+					"filename": "Back Light_00069",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 3,
+						"w": 274,
+						"h": 153
+					},
+					"frame": {
+						"x": 1385,
+						"y": 1543,
+						"w": 274,
+						"h": 153
+					}
+				},
+				{
+					"filename": "Back Light_00023",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 5,
+						"w": 274,
+						"h": 152
+					},
+					"frame": {
+						"x": 1107,
+						"y": 1697,
+						"w": 274,
+						"h": 152
+					}
+				},
+				{
+					"filename": "Back Light_00024",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 5,
+						"w": 274,
+						"h": 152
+					},
+					"frame": {
+						"x": 831,
+						"y": 1698,
+						"w": 274,
+						"h": 152
+					}
+				},
+				{
+					"filename": "Back Light_00004",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 3,
+						"w": 274,
+						"h": 151
+					},
+					"frame": {
+						"x": 554,
+						"y": 1700,
+						"w": 274,
+						"h": 151
+					}
+				},
+				{
+					"filename": "Back Light_00070",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 5,
+						"w": 274,
+						"h": 151
+					},
+					"frame": {
+						"x": 277,
+						"y": 1713,
+						"w": 274,
+						"h": 151
+					}
+				},
+				{
+					"filename": "Back Light_00085",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 2,
+						"w": 273,
+						"h": 157
+					},
+					"frame": {
+						"x": 1,
+						"y": 1714,
+						"w": 273,
+						"h": 157
+					}
+				},
+				{
+					"filename": "Back Light_00086",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 2,
+						"w": 273,
+						"h": 157
+					},
+					"frame": {
+						"x": 1,
+						"y": 1873,
+						"w": 273,
+						"h": 157
+					}
+				},
+				{
+					"filename": "Back Light_00077",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 3,
+						"w": 272,
+						"h": 156
+					},
+					"frame": {
+						"x": 276,
+						"y": 1866,
+						"w": 272,
+						"h": 156
+					}
+				},
+				{
+					"filename": "Back Light_00076",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 4,
+						"w": 272,
+						"h": 155
+					},
+					"frame": {
+						"x": 550,
+						"y": 1866,
+						"w": 272,
+						"h": 155
+					}
+				},
+				{
+					"filename": "Back Light_00030",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 3,
+						"w": 273,
+						"h": 154
+					},
+					"frame": {
+						"x": 824,
+						"y": 1853,
+						"w": 273,
+						"h": 154
+					}
+				},
+				{
+					"filename": "Back Light_00033",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 2,
+						"w": 273,
+						"h": 154
+					},
+					"frame": {
+						"x": 1099,
+						"y": 1852,
+						"w": 273,
+						"h": 154
+					}
+				},
+				{
+					"filename": "Back Light_00034",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 3,
+						"w": 273,
+						"h": 154
+					},
+					"frame": {
+						"x": 1374,
+						"y": 1851,
+						"w": 273,
+						"h": 154
+					}
+				},
+				{
+					"filename": "Back Light_00078",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 6,
+						"w": 273,
+						"h": 153
+					},
+					"frame": {
+						"x": 1661,
+						"y": 1566,
+						"w": 273,
+						"h": 153
+					}
+				},
+				{
+					"filename": "Back Light_00032",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 3,
+						"w": 272,
+						"h": 154
+					},
+					"frame": {
+						"x": 1649,
+						"y": 1721,
+						"w": 272,
+						"h": 154
+					}
+				},
+				{
+					"filename": "Back Light_00031",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 4,
+						"w": 269,
+						"h": 153
+					},
+					"frame": {
+						"x": 1649,
+						"y": 1877,
+						"w": 269,
+						"h": 153
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:aec175e2888ac3f5c49298ae7f493abb:1582f20ab4386757dec8ab89e3aea572:658bf9550adbb230fdcb4963e9c91743$"
+	}
+}

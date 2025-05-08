@@ -1,0 +1,83 @@
+{
+	"textures": [
+		{
+			"image": "backgroundAnim.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 512,
+				"h": 1024
+			},
+			"scale": 0.5,
+			"frames": [
+				{
+					"filename": "OBLAK 2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 465,
+						"h": 345
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 17,
+						"w": 395,
+						"h": 328
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 395,
+						"h": 328
+					}
+				},
+				{
+					"filename": "Oblak 1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 359,
+						"h": 261
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 359,
+						"h": 261
+					},
+					"frame": {
+						"x": 1,
+						"y": 331,
+						"w": 359,
+						"h": 261
+					}
+				},
+				{
+					"filename": "OBLAK 3",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 553,
+						"h": 310
+					},
+					"spriteSourceSize": {
+						"x": 61,
+						"y": 0,
+						"w": 309,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 594,
+						"w": 309,
+						"h": 167
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:dd1b0bede59a255cd8a6e220644377f2:46a3adee0f2e2f33cf548a1b8210f49b:5ef7dfd651aa5ea443be6d5b7c28d858$"
+	}
+}

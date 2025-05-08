@@ -1,0 +1,37 @@
+image: node:16.9.1
+
+pipelines:
+  tags:
+    release-dev-*:
+    - step:
+        name: Build
+        script:
+          - git submodule update --init --recursive
+          - npm install && npm run build
+        artifacts:
+          - bundle/**
+    - step:
+        name: Deploy to Firebase
+        deployment: production
+        script:
+          - pipe: atlassian/firebase-deploy:0.2.1
+            variables:
+              FIREBASE_TOKEN: $FIREBASE_TOKEN
+              PROJECT_ID: $FIREBASE_PROJECT
+    release-test-*:
+    - step:
+        name: Build
+        script:
+          - git submodule update --init --recursive
+          - npm install && npm run build
+        artifacts:
+          - bundle/**
+    - step:
+        name: Deploy to Firebase
+        deployment: production
+        script:
+          - pipe: atlassian/firebase-deploy:0.2.1
+            variables:
+              FIREBASE_TOKEN: $FIREBASE_TOKEN
+              PROJECT_ID: $FIREBASE_PROJECT_TEST
+

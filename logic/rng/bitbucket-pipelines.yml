@@ -1,0 +1,20 @@
+
+image: node:10.0.0
+options:
+  docker: true
+
+pipelines:
+  default:
+  - step:
+      script: #Build Node
+      - npm i
+      - npm run build
+      - OUTPUT_NUMBER=1000 npm run test
+      - echo "test complete, results:"
+      - cat testrng.txt
+  - step:
+      deployment: production
+      trigger: manual
+      script:
+      - printf "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" >> ~/.npmrc
+      - npm publish

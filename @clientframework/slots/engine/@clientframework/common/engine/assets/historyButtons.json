@@ -1,0 +1,83 @@
+{
+	"textures": [
+		{
+			"image": "historyButtons.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 256,
+				"h": 256
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "history",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 144,
+						"h": 127
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 144,
+						"h": 127
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 144,
+						"h": 127
+					}
+				},
+				{
+					"filename": "arrow-left",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 119,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 119,
+						"h": 123
+					},
+					"frame": {
+						"x": 1,
+						"y": 130,
+						"w": 119,
+						"h": 123
+					}
+				},
+				{
+					"filename": "arrow-right",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 119,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 119,
+						"h": 123
+					},
+					"frame": {
+						"x": 122,
+						"y": 130,
+						"w": 119,
+						"h": 123
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:fd5fbd276a971174f39d6d6603f0bdcd:33b7e2cbe8bbfe95b73cea8dcc7e82a4:060b320a1425b1ae262931dc1d9e6e19$"
+	}
+}

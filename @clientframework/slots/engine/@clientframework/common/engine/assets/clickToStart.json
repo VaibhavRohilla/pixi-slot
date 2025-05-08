@@ -1,0 +1,62 @@
+{
+	"textures": [
+		{
+			"image": "clickToStart.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 344,
+				"h": 1028
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "UsamljeniMouseClear.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 342,
+						"h": 512
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 342,
+						"h": 512
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 342,
+						"h": 512
+					}
+				},
+				{
+					"filename": "UsamljeniMouseClick.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 342,
+						"h": 512
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 342,
+						"h": 512
+					},
+					"frame": {
+						"x": 1,
+						"y": 515,
+						"w": 342,
+						"h": 512
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:c5242027a09cbce37156ca57cfc40445:47f099ed76147efb526a01e618d90600:e5aef0fc6b8c78d3512bce0e83afea75$"
+	}
+}

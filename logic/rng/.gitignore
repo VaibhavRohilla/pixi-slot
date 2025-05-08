@@ -1,0 +1,5 @@
+!scripts/test-cli.js
+node_modules
+.idea
+.vscode
+

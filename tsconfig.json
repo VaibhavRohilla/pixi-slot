@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "noUnusedLocals": false,
+        "paths": {
+            "@clientframework/*": ["./@clientframework/*"],
+            "@logic/*": ["./logic/src/*"],
+            "@backendService/*": ["./@clientframework/common/backend-service/src/*"],
+            "@commonEngine/*": ["./@clientframework/slots/engine/@clientframework/common/engine/src/ts/*"],
+            "@slotsEngine/*": ["./@clientframework/slots/engine/src/ts/*"],
+            "@specific/*": ["./src/ts/*"]
+        },
+        "removeComments": true,
+        "target": "es5",
+        "sourceMap": true
+    },
+    "exclude": ["node_modules", "logic/rng"]
+}

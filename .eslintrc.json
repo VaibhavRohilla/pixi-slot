@@ -1,0 +1,50 @@
+{
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:@typescript-eslint/recommended-requiring-type-checking",
+        "plugin:prettier/recommended"
+    ],
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": 2019,
+        "sourceType": "module",
+        "project": "./tsconfig.json"
+    },
+    "plugins": ["@typescript-eslint/eslint-plugin"],
+    "globals": {
+        "Phaser": "readonly"
+    },
+    "rules": {
+        "curly": "error",
+        "no-trailing-spaces": "error",
+        "no-prototype-builtins": "off",
+        "semi": "off",
+        "@typescript-eslint/semi": ["error"],
+        "quotes": ["error", "single"],
+        "key-spacing": "error",
+        "lines-between-class-members": [
+            "error",
+            "always",
+            { "exceptAfterSingleLine": true }
+        ],
+        "@typescript-eslint/ban-ts-ignore": "off",
+        "@typescript-eslint/no-var-requires": "off",
+        "@typescript-eslint/no-explicit-any": "off",
+        "@typescript-eslint/no-namespace": "off",
+        "@typescript-eslint/no-empty-function": "warn",
+        "@typescript-eslint/consistent-type-assertions": "off",
+        "@typescript-eslint/unbound-method": "off",
+        "@typescript-eslint/interface-name-prefix": [
+            "error",
+            {
+                "prefixWithI": "always"
+            }
+        ]
+    }
+}

@@ -1,0 +1,83 @@
+{
+	"textures": [
+		{
+			"image": "tapToStart.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 230,
+				"h": 1126
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "UsamljeniTapalac2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 228,
+						"h": 390
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 228,
+						"h": 390
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 228,
+						"h": 390
+					}
+				},
+				{
+					"filename": "UsamljeniTapalac1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 228,
+						"h": 390
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 16,
+						"w": 228,
+						"h": 374
+					},
+					"frame": {
+						"x": 1,
+						"y": 393,
+						"w": 228,
+						"h": 374
+					}
+				},
+				{
+					"filename": "UsamljeniTapalac0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 390
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 34,
+						"w": 227,
+						"h": 356
+					},
+					"frame": {
+						"x": 1,
+						"y": 769,
+						"w": 227,
+						"h": 356
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:766efc75317e09ea3dcdedd936f82c7f:f3a079182fbe61ba5152ddbbc7e7df92:ab9947bacbfbc63b128e7a58af081f85$"
+	}
+}

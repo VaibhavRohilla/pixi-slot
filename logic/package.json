@@ -1,0 +1,33 @@
+{
+    "name": "eightgoldenlions-logic",
+    "version": "0.0.1",
+    "description": "8 Golden Dragons Logic",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "rm -rf build && tsc && cp -r src/criticalFiles/js/ build/criticalFiles",
+        "buildNewCriticalFiles": "rm -rf build && tsc && cp -r ./build/criticalFiles/* src/criticalFiles/js",
+        "startUseCase": "npm run build && node build/framework/tests/useCaseRGS15/testServers/",
+        "startDummy": "npm run build && node build/framework/tests/testServer/dummyRng",
+        "start": "npm run build && node build/framework/tests/testServer/",
+        "test-harness": "node build/framework/tests/testHarness",
+        "sim": "npm run build && node build/framework/tests/testHarness",
+        "postinstall": "npm i --prefix rng"
+    },
+    "_moduleAliases": {
+        "@rng": "rng"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@types/node": "^12.0.0",
+        "@types/ws": "^6.0.1",
+        "cli-progress": "^3.8.2",
+        "fs": "0.0.1-security",
+        "typescript": "^3.6.3",
+        "ws": "^7.1.2"
+    },
+    "devDependencies": {
+        "module-alias": "^2.2.2"
+    }
+}

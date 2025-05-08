@@ -1,0 +1,650 @@
+{
+	"textures": [
+		{
+			"image": "midWinAnim.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 512,
+				"h": 1024
+			},
+			"scale": 0.5,
+			"frames": [
+				{
+					"filename": "Svetlo za skrol_00004",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 154,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 154,
+						"h": 62
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 154,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Svetlo za skrol_00005",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 154,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 154,
+						"h": 62
+					},
+					"frame": {
+						"x": 157,
+						"y": 1,
+						"w": 154,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Svetlo za skrol_00006",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 154,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 154,
+						"h": 62
+					},
+					"frame": {
+						"x": 313,
+						"y": 1,
+						"w": 154,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Svetlo za skrol_00000",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 154,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 469,
+						"y": 1,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "Svetlo za skrol_00007",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 154,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 154,
+						"h": 62
+					},
+					"frame": {
+						"x": 1,
+						"y": 65,
+						"w": 154,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Svetlo za skrol_00008",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 154,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 154,
+						"h": 62
+					},
+					"frame": {
+						"x": 157,
+						"y": 65,
+						"w": 154,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Svetlo za skrol_00009",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 154,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 154,
+						"h": 62
+					},
+					"frame": {
+						"x": 313,
+						"y": 65,
+						"w": 154,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Svetlo za skrol_00010",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 154,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 154,
+						"h": 62
+					},
+					"frame": {
+						"x": 1,
+						"y": 129,
+						"w": 154,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Svetlo za skrol_00011",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 154,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 154,
+						"h": 62
+					},
+					"frame": {
+						"x": 157,
+						"y": 129,
+						"w": 154,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Svetlo za skrol_00012",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 154,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 154,
+						"h": 62
+					},
+					"frame": {
+						"x": 313,
+						"y": 129,
+						"w": 154,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Svetlo za skrol_00013",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 154,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 154,
+						"h": 62
+					},
+					"frame": {
+						"x": 1,
+						"y": 193,
+						"w": 154,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Svetlo za skrol_00014",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 154,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 154,
+						"h": 62
+					},
+					"frame": {
+						"x": 157,
+						"y": 193,
+						"w": 154,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Svetlo za skrol_00015",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 154,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 154,
+						"h": 62
+					},
+					"frame": {
+						"x": 313,
+						"y": 193,
+						"w": 154,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Svetlo za skrol_00016",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 154,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 154,
+						"h": 62
+					},
+					"frame": {
+						"x": 1,
+						"y": 257,
+						"w": 154,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Svetlo za skrol_00017",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 154,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 154,
+						"h": 62
+					},
+					"frame": {
+						"x": 157,
+						"y": 257,
+						"w": 154,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Svetlo za skrol_00018",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 154,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 154,
+						"h": 62
+					},
+					"frame": {
+						"x": 313,
+						"y": 257,
+						"w": 154,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Svetlo za skrol_00019",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 154,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 154,
+						"h": 62
+					},
+					"frame": {
+						"x": 1,
+						"y": 321,
+						"w": 154,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Svetlo za skrol_00020",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 154,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 154,
+						"h": 62
+					},
+					"frame": {
+						"x": 157,
+						"y": 321,
+						"w": 154,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Svetlo za skrol_00021",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 154,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 154,
+						"h": 62
+					},
+					"frame": {
+						"x": 313,
+						"y": 321,
+						"w": 154,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Svetlo za skrol_00022",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 154,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 154,
+						"h": 62
+					},
+					"frame": {
+						"x": 1,
+						"y": 385,
+						"w": 154,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Svetlo za skrol_00023",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 154,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 154,
+						"h": 62
+					},
+					"frame": {
+						"x": 157,
+						"y": 385,
+						"w": 154,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Svetlo za skrol_00024",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 154,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 154,
+						"h": 62
+					},
+					"frame": {
+						"x": 313,
+						"y": 385,
+						"w": 154,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Svetlo za skrol_00025",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 154,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 154,
+						"h": 62
+					},
+					"frame": {
+						"x": 1,
+						"y": 449,
+						"w": 154,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Svetlo za skrol_00026",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 154,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 154,
+						"h": 62
+					},
+					"frame": {
+						"x": 157,
+						"y": 449,
+						"w": 154,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Svetlo za skrol_00027",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 154,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 154,
+						"h": 62
+					},
+					"frame": {
+						"x": 313,
+						"y": 449,
+						"w": 154,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Svetlo za skrol_00028",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 154,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 154,
+						"h": 62
+					},
+					"frame": {
+						"x": 1,
+						"y": 513,
+						"w": 154,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Svetlo za skrol_00029",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 154,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 154,
+						"h": 62
+					},
+					"frame": {
+						"x": 157,
+						"y": 513,
+						"w": 154,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Svetlo za skrol_00002",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 154,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 0,
+						"w": 142,
+						"h": 60
+					},
+					"frame": {
+						"x": 313,
+						"y": 513,
+						"w": 142,
+						"h": 60
+					}
+				},
+				{
+					"filename": "Svetlo za skrol_00003",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 154,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 0,
+						"w": 142,
+						"h": 60
+					},
+					"frame": {
+						"x": 313,
+						"y": 575,
+						"w": 142,
+						"h": 60
+					}
+				},
+				{
+					"filename": "Svetlo za skrol_00001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 154,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 1,
+						"w": 140,
+						"h": 57
+					},
+					"frame": {
+						"x": 1,
+						"y": 577,
+						"w": 140,
+						"h": 57
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:00abeb7e3707e2c9e2e6c186f89e8fb2:f1abcc4a37382a9f5e6967b69780a50a:9e4c9ee6075a990b82d92bcb5a7fda7a$"
+	}
+}

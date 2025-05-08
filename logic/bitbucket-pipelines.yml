@@ -1,0 +1,22 @@
+image: node:16.9.1
+
+pipelines:
+  tags:
+    release-dev-*:
+    - step:
+        name: Build
+        script:
+          - git submodule update --init --recursive
+          - npm install && npm run build
+        artifacts:
+          - build/**
+    - step:
+        name: Deploy artifacts using SCP to DEV
+        deployment: production
+        script:
+          - pipe: atlassian/scp-deploy:0.3.3
+            variables:
+              USER: $USER
+              SERVER: $SERVER
+              REMOTE_PATH: '/root/logics-dev/eight_golden_dragons'
+              LOCAL_PATH: 'build/*'

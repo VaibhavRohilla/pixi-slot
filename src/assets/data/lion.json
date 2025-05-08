@@ -1,0 +1,104 @@
+{
+	"textures": [
+		{
+			"image": "lion.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1024,
+				"h": 1024
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "lion_active-portrait",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 431,
+						"h": 513
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 431,
+						"h": 513
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 431,
+						"h": 513
+					}
+				},
+				{
+					"filename": "lion_active",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 352,
+						"h": 419
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 352,
+						"h": 419
+					},
+					"frame": {
+						"x": 1,
+						"y": 516,
+						"w": 352,
+						"h": 419
+					}
+				},
+				{
+					"filename": "lion",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 350,
+						"h": 417
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 350,
+						"h": 417
+					},
+					"frame": {
+						"x": 355,
+						"y": 516,
+						"w": 350,
+						"h": 417
+					}
+				},
+				{
+					"filename": "lion-portrait",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 429,
+						"h": 511
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 429,
+						"h": 511
+					},
+					"frame": {
+						"x": 434,
+						"y": 1,
+						"w": 429,
+						"h": 511
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:2fe56d5104d097b64571d0645cfa9de6:bc09399bcad04bc860ba6213513ebcf7:f0e65117d63770d353e1baf22f53059b$"
+	}
+}
