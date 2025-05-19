@@ -1,4 +1,4 @@
-import { app } from './App';
+import { app } from './core/App';
 
 // Initialize the application
 app.init().catch(error => {

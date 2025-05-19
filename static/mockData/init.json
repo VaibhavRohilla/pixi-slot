@@ -1,0 +1,68 @@
+{
+  "status": "SUCCESS",
+  "requestId": "mock-init-request",
+  "timestamp": 1618329600000,
+  "gameData": {
+    "symbols": [
+      "SYM_1",
+      "SYM_2",
+      "SYM_3",
+      "SYM_4",
+      "SYM_5",
+      "SYM_6",
+      "SYM_7",
+      "SYM_8",
+      "SCATTER"
+    ],
+    "reelStrips": [
+      ["SYM_1", "SYM_2", "SYM_3", "SYM_4", "SYM_5", "SYM_6", "SYM_7", "SYM_8", "SCATTER"],
+      ["SYM_2", "SYM_3", "SYM_4", "SYM_5", "SYM_6", "SYM_7", "SYM_8", "SCATTER", "SYM_1"],
+      ["SYM_3", "SYM_4", "SYM_5", "SYM_6", "SYM_7", "SYM_8", "SCATTER", "SYM_1", "SYM_2"],
+      ["SYM_4", "SYM_5", "SYM_6", "SYM_7", "SYM_8", "SCATTER", "SYM_1", "SYM_2", "SYM_3"],
+      ["SYM_5", "SYM_6", "SYM_7", "SYM_8", "SCATTER", "SYM_1", "SYM_2", "SYM_3", "SYM_4"]
+    ],
+    "paylines": [
+      [1, 1, 1, 1, 1],
+      [0, 0, 0, 0, 0],
+      [2, 2, 2, 2, 2],
+      [0, 1, 2, 1, 0],
+      [2, 1, 0, 1, 2],
+      [0, 0, 1, 2, 2],
+      [2, 2, 1, 0, 0],
+      [1, 0, 0, 0, 1],
+      [1, 2, 2, 2, 1],
+      [1, 0, 1, 0, 1]
+    ],
+    "paytable": [
+      [0, 5, 25, 100], 
+      [0, 5, 25, 100], 
+      [0, 10, 50, 150], 
+      [0, 10, 50, 150], 
+      [0, 15, 75, 200], 
+      [0, 15, 75, 200], 
+      [0, 20, 100, 500], 
+      [0, 100, 500, 1000]
+    ],
+    "scattersPaytable": [
+      [0, 5, 20, 100]
+    ],
+    "wildSymbolId": 7,
+    "scatterSymbolId": 8,
+    "minScattersForFreeSpins": 3,
+    "freeSpinsAwardCount": 10,
+    "freeSpinsAwardMultiplier": 2,
+    "freeSpinsReelStrips": [
+      ["SYM_5", "SYM_4", "SYM_7", "SYM_6", "SYM_5", "SYM_4", "SYM_7", "SYM_8", "SCATTER"],
+      ["SYM_4", "SYM_7", "SYM_6", "SYM_3", "SYM_2", "SYM_7", "SYM_8", "SCATTER", "SYM_7"],
+      ["SYM_7", "SYM_4", "SYM_7", "SYM_6", "SYM_7", "SYM_8", "SCATTER", "SYM_7", "SYM_2"],
+      ["SYM_4", "SYM_7", "SYM_6", "SYM_7", "SYM_8", "SCATTER", "SYM_7", "SYM_2", "SYM_3"],
+      ["SYM_7", "SYM_6", "SYM_7", "SYM_8", "SCATTER", "SYM_7", "SYM_2", "SYM_7", "SYM_4"]
+    ]
+  },
+  "playerData": {
+    "balance": 10000,
+    "currency": "USD",
+    "availableBets": [10, 20, 50, 100, 200, 500],
+    "defaultBetIndex": 2
+  }
+} 

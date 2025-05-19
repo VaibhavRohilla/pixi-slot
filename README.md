@@ -4,7 +4,6 @@ A modern TypeScript template for Pixi.js games with essential features:
 - Pixi.js 7 + TypeScript
 - Howler.js for audio
 - Tween.js for animations
-- Matter.js for physics
 - Asset loading system
 - Scene management
 - Responsive design
@@ -40,7 +39,6 @@ src/
 - Responsive scaling
 - Audio support (Howler.js)
 - Animation system (Tween.js)
-- Physics engine (Matter.js)
 - Development tools (Webpack)
 
 ## License

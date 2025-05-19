@@ -1,6 +1,6 @@
 import { Container, Text, TextStyle } from 'pixi.js';
-import { EventManager, GameEvent } from './EventManager';
-import { PerformanceMonitor } from './PerformanceMonitor';
+import { EventManager, GameEvent } from '../core/utils/EventManager';
+import { PerformanceMonitor } from '../core/utils/PerformanceMonitor';
 
 interface DebugMetrics {
   fps: number;

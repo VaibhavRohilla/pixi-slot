@@ -1,0 +1,7 @@
+{
+  "status": "SUCCESS",
+  "requestId": "mock-updatebet-request",
+  "timestamp": 1618329600000,
+  "betAmount": 100,
+  "balance": 10000
+} 

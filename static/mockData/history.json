@@ -1,0 +1,97 @@
+{
+  "status": "SUCCESS",
+  "requestId": "mock-history-request",
+  "timestamp": 1618329600000,
+  "history": {
+    "records": [
+      {
+        "id": "spin-001",
+        "timestamp": 1618329600000,
+        "betAmount": 50,
+        "finalSymbols": [
+          [0, 1, 2],
+          [1, 2, 3],
+          [2, 3, 4],
+          [3, 4, 5],
+          [4, 5, 6]
+        ],
+        "winAmount": 50,
+        "freeSpinsAwarded": 0,
+        "freeSpinsPlayed": 0,
+        "gamblePlayed": false
+      },
+      {
+        "id": "spin-002",
+        "timestamp": 1618329500000,
+        "betAmount": 50,
+        "finalSymbols": [
+          [1, 2, 3],
+          [2, 3, 4],
+          [3, 4, 5],
+          [4, 5, 6],
+          [5, 6, 7]
+        ],
+        "winAmount": 100,
+        "freeSpinsAwarded": 0,
+        "freeSpinsPlayed": 0,
+        "gamblePlayed": true,
+        "gambleWon": true,
+        "gambleInitialWin": 100,
+        "gambleFinalWin": 200
+      },
+      {
+        "id": "spin-003",
+        "timestamp": 1618329400000,
+        "betAmount": 50,
+        "finalSymbols": [
+          [2, 3, 4],
+          [3, 8, 5],
+          [4, 5, 8],
+          [5, 6, 8],
+          [6, 7, 0]
+        ],
+        "winAmount": 150,
+        "freeSpinsAwarded": 10,
+        "freeSpinsPlayed": 10,
+        "gamblePlayed": false
+      },
+      {
+        "id": "spin-004",
+        "timestamp": 1618329300000,
+        "betAmount": 50,
+        "finalSymbols": [
+          [3, 4, 5],
+          [4, 5, 6],
+          [5, 6, 7],
+          [6, 7, 0],
+          [7, 0, 1]
+        ],
+        "winAmount": 0,
+        "freeSpinsAwarded": 0,
+        "freeSpinsPlayed": 0,
+        "gamblePlayed": false
+      },
+      {
+        "id": "spin-005",
+        "timestamp": 1618329200000,
+        "betAmount": 100,
+        "finalSymbols": [
+          [4, 5, 6],
+          [5, 6, 7],
+          [6, 7, 0],
+          [7, 0, 1],
+          [0, 1, 2]
+        ],
+        "winAmount": 200,
+        "freeSpinsAwarded": 0,
+        "freeSpinsPlayed": 0,
+        "gamblePlayed": true,
+        "gambleWon": false,
+        "gambleInitialWin": 200,
+        "gambleFinalWin": 0
+      }
+    ],
+    "hasMore": false,
+    "totalRecords": 5
+  }
+} 
