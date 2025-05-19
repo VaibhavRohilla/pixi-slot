@@ -3,7 +3,7 @@ import * as TWEEN from '@tweenjs/tween.js';
 import { Globals } from '../core/Global';
 import { EventManager, GameEvent } from '../core/utils/EventManager';
 import { PixiTextPopup, IPixiTextPopupOptions } from './PixiTextPopup'; // Corrected: IPixiTextPopupOptions
-import { PixiBorderLights, IPixiBorderLightsConfig } from './PixiBorderLights'; // Assuming you'll create this
+import { PixiBorderLights, IPixiBorderLightsConfig } from '../slotcore/PixiBorderLights'; // Assuming you'll create this
 
 // Forward declare if PixiBorderLights is not yet created to avoid import errors
 // declare class PixiBorderLights extends PIXI.Container { constructor(config: any, targetSprite?: PIXI.Sprite); resize(): void; show(): void; hide(): void; updatePositionAndScale?(): void; }

@@ -3,7 +3,7 @@ import * as TWEEN from '@tweenjs/tween.js';
 import { EventManager, GameEvent } from '../core/utils/EventManager';
 import { Globals } from '../core/Global';
 import { PixiButton, IPixiButtonConfig } from './PixiButton';
-import { GameFlowController } from './gameFlowController';
+import { GameFlowController } from '../controller/gameFlowController';
 import { formatCurrency } from '../core/utils/formatting';
 // import { PixiButton, IPixiButtonConfig } from './PixiButton'; // If it has buttons
 
@@ -18,6 +18,14 @@ export interface IPixiBetPanelLayoutConfig {
     panelHeight?: number;
     panelWidth?: number;
     titleTextPos?: { x: number, y: number }; // Added
+    padding?: { // Added padding property
+        top?: number;
+        bottom?: number;
+        left?: number;
+        right?: number;
+        itemSpacing?: number;
+        textVPadding?: number;
+    };
     // TODO: Add layout for individual bet option buttons if that approach is chosen
 }
 

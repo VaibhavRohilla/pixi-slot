@@ -3,13 +3,13 @@ import * as TWEEN from '@tweenjs/tween.js';
 import { EventManager, GameEvent, IAutospinStartData, IAutospinStopConditions } from '../core/utils/EventManager';
 import { Globals } from '../core/Global';
 import { PixiButton, IPixiButtonConfig, IPixiButtonTextConfig } from './PixiButton';
-import { GameFlowController } from './gameFlowController';
+import { GameFlowController } from '../controller/gameFlowController';
 import { 
     autospinCounts as defaultConfigAutospinCounts,
     autospinSingleWinLimitOptions as defaultConfigWinExceedsOptions,
     autospinBalanceIncreaseLimitOptions as defaultConfigBalanceIncreaseOptions,
     autospinLossLimitOptions as defaultConfigBalanceDecreaseOptions 
-} from './gameConfig';
+} from '../slotcore/gameConfig';
 
 export interface IPixiAutospinPanelLayoutConfig {
     // Positions for title, spin count buttons, start button, close button

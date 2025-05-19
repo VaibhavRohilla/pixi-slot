@@ -3,7 +3,7 @@ import * as TWEEN from '@tweenjs/tween.js';
 import { EventManager, GameEvent } from '../core/utils/EventManager';
 import { Globals } from '../core/Global';
 import { PixiButton, IPixiButtonConfig } from './PixiButton';
-import { HistoryController, ISlotHistoryRecord } from './HistoryController';
+import { HistoryController, ISlotHistoryRecord } from '../controller/HistoryController';
 import { formatCurrency } from '../core/utils/formatting'; // For formatting bet/win amounts
 
 export interface IPixiHistoryPanelLayoutConfig {

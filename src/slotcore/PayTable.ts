@@ -1,4 +1,3 @@
-import { ICoreGameData } from './gameFlowController'; // Assuming ICoreGameData might be used or referenced indirectly
 
 // Placeholder for currency formatting, import if needed from a utils file
 const formatCurrency = (amount: number, symbol?: string, decimals?: number) => `${symbol || '$'}${amount.toFixed(decimals || 2)}`;

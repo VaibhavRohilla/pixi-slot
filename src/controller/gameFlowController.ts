@@ -1,9 +1,9 @@
 import { EventManager, GameEvent, IAutospinStartData, IAutospinStopConditions, IGambleChoice, IGambleResult } from "../core/utils/EventManager";
 import { ISpinWinInfo } from "./winController"; // Assuming WinController exports this
 import { IReelSpinOutcome } from "./reelController"; // Assuming ReelController exports this
-import { IFreeSpinsAwardedData } from "./FreeSpinsController"; // Import for payload type
-import { GambleController } from './GambleController'; // Keep GambleController import only
-import { availableBetLevels, defaultBetIndex, paylines as configuredPaylines } from './gameConfig'; // Import bet configs and paylines
+import { IFreeSpinsAwardedData } from "../controller/FreeSpinsController"; // Import for payload type
+import { GambleController } from '../controller/GambleController'; // Keep GambleController import only
+import { availableBetLevels, defaultBetIndex, paylines as configuredPaylines } from '../slotcore/gameConfig'; // Import bet configs and paylines
 import { HistoryController, ISlotHistoryRecord } from './HistoryController'; // Import HistoryController
 import { IGameData, PaylineData } from '../interfaces/IGameData'; // Import IGameData and PaylineData
 import { ServerCommunicationService, IInitResponse, ISpinResponse, ISpinRequest, ResponseStatus } from '../core/services/ServerCommunicationService';

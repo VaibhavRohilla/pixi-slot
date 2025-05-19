@@ -3,16 +3,16 @@ import { Scene } from '../core/scenemanager/Scene';
 import { Globals } from '../core/Global';
 import { EventManager, GameEvent } from '../core/utils/EventManager';
 import * as TWEEN from '@tweenjs/tween.js';
-import { ReelController, IReelSpinOutcome } from '../slotutils/reelController';
-import { sceneReelsConfig, paylines as configuredPaylines } from '../slotutils/gameConfig';
-import { SoundController } from '../slotutils/soundController';
-import { WinController, ISpinWinInfo, ICalculatedWinLine } from '../slotutils/winController';
-import { GameFlowController, SlotGameState } from '../slotutils/gameFlowController';
+import { ReelController, IReelSpinOutcome } from '../controller/reelController';
+import { sceneReelsConfig, paylines as configuredPaylines } from '../slotcore/gameConfig';
+import { SoundController } from '../controller/soundController';
+import { WinController, ISpinWinInfo, ICalculatedWinLine } from '../controller/winController';
+import { GameFlowController, SlotGameState } from '../controller/gameFlowController';
 import { IGameData } from '../interfaces/IGameData';
-import { FreeSpinsController, IFreeSpinsAwardedData } from '../slotutils/FreeSpinsController';
-import { NearWinFXController, ILandedScatterInfo } from '../slotutils/NearWinFXController';
-import { PixiTextPopup } from '../slotutils/PixiTextPopup';
-import { PayTable } from '../slotutils/PayTable';
+import { FreeSpinsController, IFreeSpinsAwardedData } from '../controller/FreeSpinsController';
+import { NearWinFXController, ILandedScatterInfo } from '../controller/NearWinFXController';
+import { PixiTextPopup } from '../uimanager/PixiTextPopup';
+import { PayTable } from '../slotcore/PayTable';
 
 // Reel class to handle individual reels
 class Reel extends Container {

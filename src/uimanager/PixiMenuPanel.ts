@@ -3,8 +3,8 @@ import * as TWEEN from '@tweenjs/tween.js';
 import { EventManager, GameEvent } from '../core/utils/EventManager';
 import { Globals } from '../core/Global';
 import { PixiButton, IPixiButtonConfig } from './PixiButton';
-import { SoundController } from './soundController'; // Corrected casing
-import { GameFlowController } from './gameFlowController'; // To get settings states
+import { SoundController } from '../controller/soundController'; // Corrected casing
+import { GameFlowController } from '../controller/gameFlowController'; // To get settings states
 // import { SettingsController } from './SettingsController'; // If a dedicated settings controller exists
 
 export interface IPixiMenuPanelLayoutConfig {

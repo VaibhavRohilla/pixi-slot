@@ -1,17 +1,16 @@
+import { GameFlowController, SlotGameState } from "@/controller/gameFlowController";
+import { Globals } from "@/core/Global";
 import * as PIXI from 'pixi.js';
-import { EventManager, GameEvent } from '../core/utils/EventManager';
-import { Globals } from '../core/Global';
-import { GameFlowController, SlotGameState } from './gameFlowController';
-
-import { PixiTopInfoBar, IPixiTopInfoBarConfig } from './PixiTopInfoBar';
-import { PixiMainControlsPanel, IPixiMainControlsPanelConfig } from './PixiMainControlsPanel';
-import { PixiMenuPanel, IPixiMenuPanelConfig } from './PixiMenuPanel';
-import { PixiSidePanel, IPixiSidePanelConfig } from './PixiSidePanel'; // Assuming for scatter/feature display
-import { PixiBetPanel, IPixiBetPanelConfig } from './PixiBetPanel'; // Assuming future creation - UNCOMMENTED
-import { PixiAutospinPanel, IPixiAutospinPanelConfig } from './PixiAutospinPanel';
-import { PixiGambleUI, IPixiGambleUIConfig } from './PixiGambleUI'; // Uncommented
-import { PixiHistoryPanel, IPixiHistoryPanelConfig } from './PixiHistoryPanel'; // Import History Panel
-import { PixiInfoPanel, IPixiInfoPanelConfig } from './PixiInfoPanel'; // Import Info Panel
+import { EventManager, GameEvent } from "@/core/utils/EventManager";
+import { IPixiAutospinPanelConfig, PixiAutospinPanel } from "./PixiAutospinPanel";
+import { IPixiBetPanelConfig, PixiBetPanel } from "./PixiBetPanel";
+import { IPixiGambleUIConfig, PixiGambleUI } from "./PixiGambleUI";
+import { IPixiHistoryPanelConfig, PixiHistoryPanel } from "./PixiHistoryPanel";
+import { IPixiInfoPanelConfig, PixiInfoPanel } from "./PixiInfoPanel";
+import { IPixiMainControlsPanelConfig, PixiMainControlsPanel } from "./PixiMainControlsPanel";
+import { IPixiMenuPanelConfig, PixiMenuPanel } from "./PixiMenuPanel";
+import { IPixiSidePanelConfig, PixiSidePanel } from "./PixiSidePanel";
+import { IPixiTopInfoBarConfig, PixiTopInfoBar } from "./PixiTopInfoBar";
 
 export interface IPixiUIManagerLayoutConfig {
     topInfoBarPos?: { x?: number, y?: number, widthRatio?: number, height?: number, padding?: { top?: number, bottom?: number } };

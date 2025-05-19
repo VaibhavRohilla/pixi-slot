@@ -8,7 +8,7 @@ import * as TWEEN from '@tweenjs/tween.js';
 import { ServerCommunicationService } from './services/ServerCommunicationService';
 import { StatisticsController } from './services/StatisticsController';
 import { LocalizationService } from './services/LocalizationService';
-import { HistoryController } from '../slotutils/HistoryController';
+import { HistoryController } from '../controller/HistoryController';
 
 const isDevelopment = process.env.NODE_ENV === 'development';
 

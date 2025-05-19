@@ -2,7 +2,7 @@ import * as PIXI from 'pixi.js';
 import { EventManager, GameEvent } from '../core/utils/EventManager';
 import { Globals } from '../core/Global';
 import { PixiButton, IPixiButtonConfig } from './PixiButton';
-import { GameFlowController, SlotGameState } from './gameFlowController'; // To check game state
+import { GameFlowController, SlotGameState } from '../controller/gameFlowController'; // To check game state
 import { PixiTextPopup, IPixiTextPopupOptions } from './PixiTextPopup'; // Import PixiTextPopup
 import { formatCurrency } from '../core/utils/formatting'; // Import formatting utility
 

@@ -1,7 +1,7 @@
 import * as PIXI from 'pixi.js';
 import { EventManager, GameEvent } from '../core/utils/EventManager';
 import { Globals } from '../core/Global';
-import { PixiPopupAnimation, IPixiPopupAnimationOptions } from './PixiPopupAnimation'; // Assuming this exists
+import { PixiPopupAnimation, IPixiPopupAnimationOptions } from '../uimanager/PixiPopupAnimation'; // Assuming this exists
 
 export enum PixiSymbolState {
     IDLE = 'IDLE',

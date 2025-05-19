@@ -3,7 +3,7 @@ import * as TWEEN from '@tweenjs/tween.js';
 import { EventManager, GameEvent, IGambleChoice, IGambleResult } from '../core/utils/EventManager';
 import { Globals } from '../core/Global';
 import { PixiButton, IPixiButtonConfig } from './PixiButton';
-import { GambleController } from './GambleController';
+import { GambleController } from '../controller/GambleController';
 
 export interface IPixiGambleUILayoutConfig {
     infoTextPos?: { x: number, y: number };

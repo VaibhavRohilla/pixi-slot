@@ -1,5 +1,5 @@
 import { EventManager, GameEvent, IGambleChoice, IGambleResult } from '../core/utils/EventManager';
-import { gambleMaxRounds, gambleMaxWinMultiplier } from './gameConfig'; // Import gamble configs
+import { gambleMaxRounds, gambleMaxWinMultiplier } from '../slotcore/gameConfig'; // Import gamble configs
 
 export class GambleController {
     private static instance: GambleController;
